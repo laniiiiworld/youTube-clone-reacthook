@@ -1,0 +1,11 @@
+/* color */
+@value red-color: #ff0000;
+@value white-color: #ffffff;
+@value none-white-color: #f8f8f8;
+@value light-gray-color: #ececec;
+@value medium-gray-color: #7e7e7e;
+@value dark-gray-color: #606060;
+@value black-color: #030303;
+@value loading-color: #aeaeae;
+@value search-border-color: #cccccc;
+@value blue-color: #095ed4;

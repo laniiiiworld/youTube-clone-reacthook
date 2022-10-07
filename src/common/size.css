@@ -1,0 +1,37 @@
+/* size */
+@value thumbnail-small: 15rem;
+@value XXXLarge-size: 2rem;
+@value XXLarge-size: 1.6rem;
+@value XLarge-size: 1.4rem;
+@value Large-size: 1.2rem;
+@value medium-size: 1rem;
+@value small-size: 0.8rem;
+
+/* space */
+@value XLarge-space: 1em;
+@value Large-space: 0.6em;
+@value medium-space: 0.4em;
+@value small-space: 0.2em;
+
+/* media query */
+@value media-query-large: 992px;
+@value media-query-medium: 768px;
+@value media-query-small: 576px;
+
+/* video Detail */
+@value video-detail-left: 1 1 70%;
+@value video-detail-right: 1 1 30%;
+
+/* video-player size */
+@value video-player-large: 30rem;
+@value video-player-medium: 25rem;
+@value video-player-small: 20rem;
+
+/* channel info */
+@value channel-info-left: 1 1 70%;
+@value channel-info-right: 1 1 30%;
+@value user-size: 2.6rem;
+
+/* video Item */
+@value video-item-left: 1 1 30%;
+@value video-item-right: 1 1 70%;
