@@ -1,0 +1,26 @@
+@value XXXLarge-size, Large-size, small-space from '../../common/size.css';
+@value black-color, search-border-color, light-gray-color, none-white-color from '../../common/colors.css';
+
+.keywordSearch {
+  display: flex;
+  height: calc(XXXLarge-size * 1.1);
+}
+
+.input {
+  width: calc(XXXLarge-size * 10);
+  font-size: calc(Large-size);
+  border: solid search-border-color;
+}
+
+.button {
+  background-color: none-white-color;
+  padding: small-space calc(small-space * 4);
+  border: solid search-border-color;
+  cursor: pointer;
+  font-size: Large-size;
+  color: black-color;
+}
+
+.button:hover {
+  background-color: light-gray-color;
+}

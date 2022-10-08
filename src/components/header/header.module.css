@@ -1,0 +1,34 @@
+@value Large-space, medium-space, small-space, XXXLarge-size, XXLarge-size from '../../common/size.css';
+@value black-color from '../../common/colors.css';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: XXXLarge-size;
+  padding: medium-space;
+  padding-top: Large-space;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: XXLarge-size;
+  letter-spacing: -0.14rem;
+  margin-right: small-space;
+  text-decoration: none;
+  color: black-color;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logoImg {
+  width: XXXLarge-size;
+  margin-right: calc(small-space/2);
+}
+
+.icons {
+  width: calc(XXXLarge-size * 2);
+}
