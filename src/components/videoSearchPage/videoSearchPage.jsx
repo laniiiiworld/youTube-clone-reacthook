@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import VideoList from '../videoList/videoList';
+import styles from './videoSearchPage.module.css';
 
-const VideoSearchPage = (props) => {
-  return <h1>search</h1>;
+const VideoSearchPage = ({ videos, handleVideoClick }) => {
+  return (
+    <main className={styles.videoSearchPage}>
+      <VideoList //
+        displayType={'list'}
+        videos={videos}
+        handleVideoClick={handleVideoClick}
+      />
+    </main>
+  );
 };
 
 export default VideoSearchPage;

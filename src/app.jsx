@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/js/all.js';
 import Header from './components/header/header';
@@ -9,37 +9,45 @@ import './app.css';
 
 const App = (props) => {
   const navigate = useNavigate();
-  const [videos, setVideo] = useState([]);
+  const [videos, setVideos] = useState([]);
 
-  useEffect(() => {
-    getVideosData();
-  }, []);
-
-  /** 메인 페이지 - 비디오 목록 가져오기 */
-  const getVideosData = async () => {
-    try {
-      const videos = await props.youtube.videos();
-      setVideo(videos);
-    } catch (error) {
-    }
-  };
-  /** 검색 페이지 - 조회 결과 가져오기 */
-  const handleSubmit = (keyword) => {
+  /** 검색 페이지로 이동 */
+  const handleSearch = async (keyword) => {
+    const data = await getSearchResultVideos(keyword);
+    setVideos(data);
     navigate(`/search`);
   };
 
-  /** 비디오 클릭시 */
+  /** 비디오 클릭시 상세 페이지로 이동 */
   const handleVideoClick = (videoId) => {
     navigate(`/detail/`);
   };
 
+  /** 메인 페이지 - API에서 인기있는 동영상 목록 가져오기 */
+  const getMostPopularVideos = async () => {
+    try {
+      const videos = await props.youtube.videos();
+      return videos;
+    } catch (error) {
+    }
+  };
+
+  /** 검색 페이지 - API에서 검색 결과 가져오기 */
+  const getSearchResultVideos = async (keyword) => {
+    try {
+      const videos = await props.youtube.search(keyword);
+      return videos;
+    } catch (error) {
+    }
+  };
+
   return (
     <>
-      <Header handleSubmit={handleSubmit} />
+      <Header handleSearch={handleSearch} />
       <Routes>
-        <Route path='/' element={<MainPage videos={videos} handleVideoClick={handleVideoClick} />} />
+        <Route path='/' element={<MainPage getMostPopularVideos={getMostPopularVideos} handleVideoClick={handleVideoClick} />} />
         <Route path='/detail' element={<VideoDetailPage />} />
-        <Route path='/search' element={<VideoSearchPage />} />
+        <Route path='/search' element={<VideoSearchPage videos={videos} handleVideoClick={handleVideoClick} />} />
       </Routes>
     </>
   );

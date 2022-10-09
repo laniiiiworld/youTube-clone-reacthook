@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
 import styles from './keywordSearch.module.css';
 
-const KeywordSearch = (props) => {
+const KeywordSearch = ({ handleSearch }) => {
   const inputRef = useRef();
 
   const onSubmit = (event) => {
     event.preventDefault();
     const keyword = inputRef.current.value;
-    keyword && props.handleSubmit(keyword);
+    keyword && handleSearch(keyword);
   };
 
   return (
