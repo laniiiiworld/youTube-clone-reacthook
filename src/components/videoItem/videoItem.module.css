@@ -1,0 +1,45 @@
+@value medium-size, small-size, medium-space, thumbnail-small, video-item-left, video-item-right from '../../common/size.css';
+@value black-color, dark-gray-color from '../../common/colors.css';
+
+.videoItem {
+  display: flex;
+  cursor: pointer;
+  padding: medium-space;
+}
+
+.videoItem.list {
+  padding-bottom: 0;
+}
+
+.grid {
+  flex-direction: column;
+}
+
+.thumbnail {
+  flex: 1 1 30%;
+}
+
+.thumbnailImg {
+  width: 100%;
+  min-width: thumbnail-small;
+}
+
+.info {
+  flex: 1 1 70%;
+  padding-left: medium-space;
+  font-size: medium-size;
+}
+
+.title {
+  font-size: medium-size;
+  color: black-color;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.channelTitle {
+  font-size: small-size;
+  color: dark-gray-color;
+}

@@ -1,0 +1,5 @@
+@value none-white-color from '../../common/colors.css';
+
+.mainPage {
+  background-color: none-white-color;
+}
