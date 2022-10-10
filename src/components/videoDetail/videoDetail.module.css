@@ -1,0 +1,138 @@
+@value black-color, dark-gray-color from '../../common/colors.css';
+@value media-query-large, media-query-medium, media-query-small, video-player-large, video-player-medium, video-player-small, Large-size, small-size,XLarge-space, medium-space, small-space,channel-info-left, channel-info-right, user-size from '../../common/size.css';
+
+.videoPlayer {
+  width: 100%;
+  height: video-player-large;
+}
+
+.title {
+  font-size: Large-size;
+  font-weight: bold;
+  padding: medium-space 0;
+}
+
+.description {
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+/* icons */
+.icons {
+  display: flex;
+  justify-content: space-around;
+  padding-top: medium-space;
+}
+
+.icons button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  font-size: Large-size;
+  color: dark-gray-color;
+}
+
+.icon.active {
+  color: black-color;
+  font-weight: bold;
+}
+
+.icons button span {
+  padding: small-space;
+  font-size: small-size;
+  color: dark-gray-color;
+}
+
+/* channel info */
+.channelArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: medium-space medium-space XLarge-space 0;
+}
+
+.channelInfo {
+  flex: channel-info-left;
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  width: user-size;
+  height: user-size;
+  border-radius: 50%;
+}
+
+.channel {
+  display: flex;
+  flex-direction: column;
+  margin-left: medium-space;
+}
+
+.channelTitle {
+  font-weight: bold;
+  padding-bottom: small-space;
+}
+
+.subscribers {
+  font-size: small-size;
+  color: dark-gray-color;
+}
+
+.buttons {
+  flex: channel-info-right;
+  text-align: right;
+  color: dark-gray-color;
+  font-size: Large-size;
+}
+
+.btn__subscription {
+  font-size: Large-size;
+  color: dark-gray-color;
+  padding-right: small-space;
+}
+
+.descriptionArea {
+  margin-left: calc(XLarge-space * 3);
+  line-height: calc(XLarge-space * 1.2);
+}
+
+.clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.moreBtn,
+.shortBtn {
+  font-size: small-size;
+  color: dark-gray-color;
+}
+
+.displayNone {
+  display: none;
+}
+
+/* +++++++++++++++++ media query +++++++++++++++++ */
+@media only screen and (max-width: media-query-large) {
+  .videoPlayer {
+    width: 100%;
+    height: video-player-large;
+  }
+}
+@media only screen and (max-width: media-query-medium) {
+  .videoPlayer {
+    width: 100%;
+    height: video-player-medium;
+  }
+}
+@media only screen and (max-width: media-query-small) {
+  .videoPlayer {
+    width: 100%;
+    height: video-player-small;
+  }
+}

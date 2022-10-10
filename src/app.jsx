@@ -12,6 +12,8 @@ const App = (props) => {
   const navigate = useNavigate();
   const [error, setError] = useState('');
   const [videos, setVideos] = useState([]);
+  const [video, setVideo] = useState([]);
+  const [channel, setChannel] = useState([]);
 
   /** 검색 페이지로 이동 */
   const handleSearch = async (keyword) => {
@@ -24,14 +26,16 @@ const App = (props) => {
   };
 
   /** 비디오 클릭시 상세 페이지로 이동 */
-  const handleVideoClick = (videoId) => {
-    navigate(`/detail/`);
+  const handleVideoClick = async (videoId) => {
+    const isSuccess = await getVideoDetailData(videoId);
+    isSuccess && navigate(`/detail/${videoId}`);
   };
 
   /** 메인 페이지 - API에서 인기있는 동영상 목록 가져오기 */
   const getMostPopularVideos = async () => {
     try {
       const videos = await props.youtube.videos();
+      setVideos(videos); //상세 페이지 이동시 동영상 목록으로 사용
       return videos;
     } catch (error) {
       setError(error.message);
@@ -51,12 +55,33 @@ const App = (props) => {
     }
   };
 
+  /** 상세 페이지 - 비디오와 채널 데이터 가져오기 */
+  const getVideoDetailData = async (videoId) => {
+    try {
+      const video = await props.youtube.videoDetail(videoId);
+      video.snippet.description = setDescription(video.snippet.description);
+
+      const channelId = video.snippet.channelId;
+      const channel = await props.youtube.videoChannel(channelId);
+      channel.statistics = { ...channel.statistics, subscribers: setSubscribers(channel.statistics.subscriberCount) };
+
+      setVideo(video);
+      setChannel(channel);
+
+      return true;
+    } catch (error) {
+      setError(error.message);
+      navigate(`/error`);
+      return false;
+    }
+  };
+
   return (
     <>
       <Header handleSearch={handleSearch} />
       <Routes>
         <Route path='/' element={<MainPage getMostPopularVideos={getMostPopularVideos} handleVideoClick={handleVideoClick} />} />
-        <Route path='/detail' element={<VideoDetailPage />} />
+        <Route path='/detail/:videoId' element={<VideoDetailPage video={video} channel={channel} videos={videos} handleVideoClick={handleVideoClick} />} />
         <Route path='/search' element={<VideoSearchPage videos={videos} handleVideoClick={handleVideoClick} />} />
         <Route path='/error' element={<ErrorPage errorMessage={error} />} />
         <Route path='*' element={<ErrorPage />} />
@@ -66,3 +91,24 @@ const App = (props) => {
 };
 
 export default App;
+
+/** 상세 페이지 - 비디오 설명에 있는 링크와 태그 형식 만들기 */
+function setDescription(description) {
+  //줄바꿈 변환
+  let str = description.replaceAll('\n', '<br/>');
+  //url link로 변경
+  str = str.replace(/(?:https?:\/\/)[a-zA-Z0-9\.\/\-\_]+/g, (link) => `<a href='${link}' target='_blank'>${link}</a>`);
+  //태그들 link로 변경
+  str = str.replace(/#[a-zA-Z0-9ㄱ-ㅎ가-힣]+/g, (tag) => `<a href='#'>${tag}</a>`);
+  return str;
+}
+
+/** 상세 페이지 - 채널 구독자 수 */
+function setSubscribers(subscriberCount) {
+  if (subscriberCount.length > 5) {
+    return `${Math.floor(Number(subscriberCount) / 10000)}만명`;
+  } else if (subscriberCount.length > 4) {
+    return `${Math.floor(Number(subscriberCount) / 1000) / 10}만명`;
+  }
+  return subscriberCount;
+}

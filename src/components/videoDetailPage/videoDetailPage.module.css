@@ -1,0 +1,25 @@
+@value XLarge-space, Large-space, media-query-large from '../../common/size.css';
+@value none-white-color from '../../common/colors.css';
+
+.videoDetailPage {
+  background-color: none-white-color;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  flex: 1 1 70%;
+  padding: XLarge-space Large-space XLarge-space XLarge-space;
+}
+
+.list {
+  flex: 1 1 30%;
+  padding: Large-space Large-space Large-space 0;
+}
+
+/* +++++++++++++++++ media query +++++++++++++++++ */
+@media only screen and (max-width: media-query-large) {
+  .videoDetailPage {
+    flex-direction: column;
+  }
+}
