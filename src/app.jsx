@@ -5,17 +5,22 @@ import Header from './components/header/header';
 import MainPage from './components/mainPage/mainPage';
 import VideoDetailPage from './components/videoDetailPage/videoDetailPage';
 import VideoSearchPage from './components/videoSearchPage/videoSearchPage';
+import ErrorPage from './components/errorPage/errorPage';
 import './app.css';
 
 const App = (props) => {
   const navigate = useNavigate();
+  const [error, setError] = useState('');
   const [videos, setVideos] = useState([]);
 
   /** 검색 페이지로 이동 */
   const handleSearch = async (keyword) => {
     const data = await getSearchResultVideos(keyword);
-    setVideos(data);
-    navigate(`/search`);
+    //error가 발생하지 않은 경우에만 이동
+    if (data.length) {
+      setVideos(data);
+      navigate(`/search`);
+    }
   };
 
   /** 비디오 클릭시 상세 페이지로 이동 */
@@ -29,6 +34,8 @@ const App = (props) => {
       const videos = await props.youtube.videos();
       return videos;
     } catch (error) {
+      setError(error.message);
+      navigate(`/error`);
     }
   };
 
@@ -38,6 +45,9 @@ const App = (props) => {
       const videos = await props.youtube.search(keyword);
       return videos;
     } catch (error) {
+      setError(error.message);
+      navigate(`/error`);
+      return [];
     }
   };
 
@@ -48,6 +58,8 @@ const App = (props) => {
         <Route path='/' element={<MainPage getMostPopularVideos={getMostPopularVideos} handleVideoClick={handleVideoClick} />} />
         <Route path='/detail' element={<VideoDetailPage />} />
         <Route path='/search' element={<VideoSearchPage videos={videos} handleVideoClick={handleVideoClick} />} />
+        <Route path='/error' element={<ErrorPage errorMessage={error} />} />
+        <Route path='*' element={<ErrorPage />} />
       </Routes>
     </>
   );

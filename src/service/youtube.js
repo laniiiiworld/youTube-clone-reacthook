@@ -19,7 +19,7 @@ export default class Youtube {
       const videoLists = await getAPIData(url, obj);
       return videoLists.items;
     } catch (err) {
-      throw new Error(err);
+      throw new Error(err.message);
     }
   };
 
@@ -40,7 +40,7 @@ export default class Youtube {
       const videoLists = await getAPIData(url, obj);
       return videoLists.items;
     } catch (err) {
-      console.log(err);
+      throw new Error(err.message);
     }
   };
 
@@ -56,7 +56,7 @@ export default class Youtube {
       const video = await getAPIData(url, obj);
       return video.items[0];
     } catch (err) {
-      console.log(err);
+      throw new Error(err.message);
     }
   };
 
@@ -72,7 +72,7 @@ export default class Youtube {
       const channel = await getAPIData(url, obj);
       return channel.items[0];
     } catch (err) {
-      console.log(err);
+      throw new Error(err.message);
     }
   };
 }
@@ -87,11 +87,11 @@ const getAPIData = async (url, obj) => {
   try {
     let response = await fetch(url + new URLSearchParams(obj), requestOptions);
     if (!response.ok) {
-      throw new Error('API를 가져올 수 없습니다.');
+      throw new Error(`${response.status}|API를 가져올 수 없습니다.`);
     }
     const myJson = response.json();
     return myJson;
   } catch (error) {
-    throw new Error(error);
+    throw new Error(error.message);
   }
 };
