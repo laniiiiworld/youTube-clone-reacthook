@@ -11,7 +11,7 @@ import './app.css';
 
 const App = (props) => {
   const navigate = useNavigate();
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
   const [videos, setVideos] = useState([]);
   const [video, setVideo] = useState([]);
