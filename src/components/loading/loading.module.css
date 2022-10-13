@@ -1,0 +1,30 @@
+@value loading-color from '../../common/colors.css';
+
+.displayNone {
+  display: none;
+}
+
+.loading .content {
+  width: 10px;
+  height: 10px;
+  left: 50%;
+  top: 50%;
+  position: fixed;
+  animation: rotatingCircle 1.5s 0.3s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;
+  margin: 0 auto;
+  padding: 15px;
+  border: 7px dashed loading-color;
+  border-radius: 100%;
+}
+
+@keyframes rotatingCircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
