@@ -13,13 +13,9 @@ const VideoDetail = ({ video, channel }) => {
 
   return (
     <>
-      <iframe //
-        className={styles.videoPlayer}
-        src={EMBED_URL + video.id}
-        type='text/html'
-        frameBorder='0'
-        allowFullScreen
-      />
+      <section className={styles.videoPlayer}>
+        <iframe src={EMBED_URL + video.id} frameBorder='0' allowFullScreen></iframe>
+      </section>
       <div className={styles.title}>{video.snippet.title}</div>
       <ul className={styles.icons}>
         <li>

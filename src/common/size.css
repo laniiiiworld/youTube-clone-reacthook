@@ -22,11 +22,6 @@
 @value video-detail-left: 1 1 70%;
 @value video-detail-right: 1 1 30%;
 
-/* video-player size */
-@value video-player-large: 30rem;
-@value video-player-medium: 25rem;
-@value video-player-small: 20rem;
-
 /* channel info */
 @value channel-info-left: 1 1 70%;
 @value channel-info-right: 1 1 30%;

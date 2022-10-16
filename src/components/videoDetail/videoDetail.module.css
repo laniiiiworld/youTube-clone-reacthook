@@ -1,9 +1,17 @@
 @value black-color, dark-gray-color from '../../common/colors.css';
-@value media-query-large, media-query-medium, media-query-small, video-player-large, video-player-medium, video-player-small, Large-size, small-size,XLarge-space, medium-space, small-space,channel-info-left, channel-info-right, user-size from '../../common/size.css';
+@value media-query-large, media-query-medium, media-query-small, Large-size, small-size,XLarge-space, medium-space, small-space,channel-info-left, channel-info-right, user-size from '../../common/size.css';
 
 .videoPlayer {
+  position: static;
+  top: 0;
+  text-align: center;
+  background: black-color;
+  aspect-ratio: 16 / 9; /* 16:9 비율 지정 */
+}
+
+.videoPlayer iframe {
   width: 100%;
-  height: video-player-large;
+  height: 100%;
 }
 
 .title {
@@ -115,24 +123,4 @@
 
 .displayNone {
   display: none;
-}
-
-/* +++++++++++++++++ media query +++++++++++++++++ */
-@media only screen and (max-width: media-query-large) {
-  .videoPlayer {
-    width: 100%;
-    height: video-player-large;
-  }
-}
-@media only screen and (max-width: media-query-medium) {
-  .videoPlayer {
-    width: 100%;
-    height: video-player-medium;
-  }
-}
-@media only screen and (max-width: media-query-small) {
-  .videoPlayer {
-    width: 100%;
-    height: video-player-small;
-  }
 }
