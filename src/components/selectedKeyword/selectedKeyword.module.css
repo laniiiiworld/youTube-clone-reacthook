@@ -1,0 +1,36 @@
+@value XXXLarge-size, medium-size, small-size, medium-space, small-space from '../../common/size.css';
+@value blue-color, white-color, light-gray-color from '../../common/colors.css';
+
+.selectedKeywordArea {
+  z-index: 1;
+  background-color: white-color;
+  box-shadow: 1px 1px 3px gray;
+  position: absolute;
+  width: calc(XXXLarge-size * 10 - 1px);
+  font-size: medium-size;
+}
+
+.selectedKeywords {
+  width: 100%;
+}
+
+.selectedKeyword {
+  padding: 0 medium-space;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.keyword {
+  padding: medium-space;
+}
+.deleteButton {
+  font-size: small-size;
+  padding: medium-space;
+  color: blue-color;
+}
+
+.deleteButton:hover {
+  text-decoration: underline;
+}

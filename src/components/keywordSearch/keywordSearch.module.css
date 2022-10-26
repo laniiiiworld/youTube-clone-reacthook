@@ -1,5 +1,5 @@
 @value XXXLarge-size, Large-size, small-space from '../../common/size.css';
-@value black-color, search-border-color, light-gray-color, none-white-color from '../../common/colors.css';
+@value black-color, blue-color, search-border-color, light-gray-color, none-white-color from '../../common/colors.css';
 
 .keywordSearch {
   display: flex;
@@ -8,8 +8,16 @@
 
 .input {
   width: calc(XXXLarge-size * 10);
-  font-size: calc(Large-size);
+  font-size: Large-size;
   border: solid search-border-color;
+  padding: small-space calc(small-space * 4);
+  box-sizing: border-box;
+}
+
+.input:focus {
+  width: calc(XXXLarge-size * 10 - 1px);
+  margin-right: 1px;
+  outline: blue-color solid 1px;
 }
 
 .button {

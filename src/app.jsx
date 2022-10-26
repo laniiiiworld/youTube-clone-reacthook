@@ -8,6 +8,7 @@ import VideoSearchPage from './components/videoSearchPage/videoSearchPage';
 import ErrorPage from './components/errorPage/errorPage';
 import Loading from './components/loading/loading';
 import './app.css';
+import { setSelectedKeyword } from './service/storage';
 
 const App = (props) => {
   const navigate = useNavigate();
@@ -19,6 +20,9 @@ const App = (props) => {
 
   /** 검색 페이지로 이동 */
   const handleSearch = async (keyword) => {
+    if (!keyword) return;
+    setSelectedKeyword('selectedKeywords', keyword);
+
     setIsLoading(true);
     try {
       const data = await getSearchResultVideos(keyword);

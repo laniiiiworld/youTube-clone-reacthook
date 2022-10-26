@@ -43,3 +43,7 @@ input {
 p {
   margin: 0;
 }
+
+.keywordItemSelected {
+  background-color: #ececec;
+}
