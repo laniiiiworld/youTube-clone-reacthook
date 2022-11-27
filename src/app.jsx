@@ -136,10 +136,9 @@ function setDescription(description) {
 
 /** 상세 페이지 - 채널 구독자 수 */
 function setSubscribers(subscriberCount) {
-  if (subscriberCount.length > 5) {
-    return `${Math.floor(Number(subscriberCount) / 10000)}만명`;
-  } else if (subscriberCount.length > 4) {
-    return `${Math.floor(Number(subscriberCount) / 1000) / 10}만명`;
-  }
-  return subscriberCount;
+  const formatter = Intl.NumberFormat(navigator.language, {
+    notation: 'compact',
+    compactDisplay: 'short',
+  });
+  return String(formatter.format(Number(subscriberCount)));
 }
