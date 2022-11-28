@@ -1,16 +1,27 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import KeywordSearch from '../keywordSearch/keywordSearch';
 import SelectedKeyword from '../selectedKeyword/selectedKeyword';
 import styles from './keywordSearchArea.module.css';
-import { getSelectedKeywords, setSelectedKeywords, setSelectedKeyword, removeSelectedKeyword } from '../../service/storage';
+import { getSelectedKeywords, setSelectedKeywords, removeSelectedKeyword } from '../../service/storage';
 
 const KeywordSearchArea = ({ handleSearch }) => {
   const [keywordList, setKeywordList] = useState([]);
+
+  //최근검색어 검색
+  const searchKeyword = (keyword, keywords) => {
+    handleSearch(keyword);
+    setKeywordList(keywords);
+  };
 
   //검색어 입력란 focus -> 최근 검색어 목록 display
   const handleInputFocus = () => {
     setKeywordList(getSelectedKeywords('selectedKeywords', []));
   };
+  //검색 영역 밖이 클릭된 경우, 최근 검색어 목록 display none
+  window.addEventListener('click', (event) => {
+    if (event.target.closest('#keywordSearchArea')) return;
+    keywordList.length && setKeywordList([]);
+  });
   //Esc가 눌린 경우, 최근 검색어 목록 display none
   window.addEventListener('keyup', (event) => {
     if (event.key === 'Escape') {
@@ -34,7 +45,7 @@ const KeywordSearchArea = ({ handleSearch }) => {
     const selectedKeywords = getSelectedKeywords('selectedKeywords', []);
     const keywordSearchInput = document.querySelector('#keywordSearchInput');
     keywordSearchInput.value = selectedKeywords[selectIndex];
-    handleSearch(selectedKeywords[selectIndex]);
+    searchKeyword(selectedKeywords[selectIndex], []);
   };
 
   //검색 영역(검색어 입력란, 최근 검색어 목록) - 키보드 제어
@@ -49,7 +60,7 @@ const KeywordSearchArea = ({ handleSearch }) => {
 
     if (event.key === 'Enter') {
       //검색
-      handleSearch(keywordSearchInput.value);
+      searchKeyword(keywordSearchInput.value, getSelectedKeywords('selectedKeywords', []));
     } else {
       //최근검색어 목록 키보드로 위,아래 이동
       controlUpAndDown(event.key, keywordSearchInput);
@@ -86,8 +97,8 @@ const KeywordSearchArea = ({ handleSearch }) => {
   };
 
   return (
-    <div className={styles.keywordSearchArea} onKeyUp={handleKeyup}>
-      <KeywordSearch handleSearch={handleSearch} handleInputFocus={handleInputFocus} />
+    <div id='keywordSearchArea' className={styles.keywordSearchArea} onKeyUp={handleKeyup}>
+      <KeywordSearch searchKeyword={searchKeyword} handleInputFocus={handleInputFocus} />
       <SelectedKeyword //
         keywords={keywordList}
         handleKeywordListClick={handleKeywordListClick}

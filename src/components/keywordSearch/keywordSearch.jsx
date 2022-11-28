@@ -1,14 +1,14 @@
 import React, { useRef } from 'react';
 import styles from './keywordSearch.module.css';
 
-const KeywordSearch = ({ handleSearch, handleInputFocus }) => {
+const KeywordSearch = ({ searchKeyword, handleInputFocus }) => {
   const inputRef = useRef();
 
   //검색버튼 click -> 검색
   const onSubmit = (event) => {
     event.preventDefault();
     const keyword = inputRef.current.value;
-    handleSearch(keyword);
+    searchKeyword(keyword, []);
   };
 
   return (
@@ -19,6 +19,7 @@ const KeywordSearch = ({ handleSearch, handleInputFocus }) => {
         ref={inputRef}
         type='text'
         placeholder='검색'
+        autoComplete='off'
         onFocus={handleInputFocus}
       />
       <button className={styles.button}>

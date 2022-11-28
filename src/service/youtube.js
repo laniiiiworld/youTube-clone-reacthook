@@ -1,3 +1,4 @@
+const cache = [];
 export default class Youtube {
   BASE_URL = 'https://www.googleapis.com/youtube/v3';
   constructor(key) {
@@ -36,9 +37,11 @@ export default class Youtube {
       q: keyword,
       safeSearch: 'strict',
     };
+    if (cache[keyword]) return cache[keyword];
     try {
       const videoLists = await getAPIData(url, obj);
-      return videoLists.items;
+      cache[keyword] = videoLists.items;
+      return cache[keyword];
     } catch (err) {
       throw new Error(err.message);
     }
