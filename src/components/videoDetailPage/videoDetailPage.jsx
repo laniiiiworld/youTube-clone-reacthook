@@ -3,21 +3,14 @@ import VideoDetail from '../videoDetail/videoDetail';
 import VideoList from '../videoList/videoList';
 import styles from './videoDetailPage.module.css';
 
-const VideoDetailPage = ({ video, channel, videos, handleVideoClick }) => {
+const VideoDetailPage = () => {
   return (
     <main className={styles.videoDetailPage}>
       <div className={styles.content}>
-        <VideoDetail //
-          video={video}
-          channel={channel}
-        />
+        <VideoDetail />
       </div>
       <div className={styles.list}>
-        <VideoList //
-          displayType={`list`}
-          videos={videos}
-          handleVideoClick={handleVideoClick}
-        />
+        <VideoList displayType={`list`} />
       </div>
     </main>
   );

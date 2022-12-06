@@ -1,9 +1,21 @@
+import { useQuery } from '@tanstack/react-query';
 import React, { useState } from 'react';
+import { useLocation, useParams } from 'react-router-dom';
+import { useYoutubeApi } from '../../context/youtubeApiContext';
+import ErrorPage from '../errorPage/errorPage';
+import Loading from '../loading/loading';
 import styles from './videoDetail.module.css';
 
 const EMBED_URL = 'https://www.youtube.com/embed/';
 
-const VideoDetail = ({ video, channel }) => {
+const VideoDetail = () => {
+  const {
+    state: { video },
+  } = useLocation();
+  const { videoId } = useParams();
+  const { youtube } = useYoutubeApi();
+  const { isLoading, error, data: channel } = useQuery(['channel', videoId], () => youtube.videoChannel(video.snippet.channelId), { staleTime: 1000 * 60 * 5 });
+
   const [isMore, setIsMore] = useState(false);
 
   //더보기, 간략히 버튼
@@ -11,10 +23,15 @@ const VideoDetail = ({ video, channel }) => {
     setIsMore(!isMore);
   };
 
+  if (error) return <ErrorPage errorMessage={error.message} />;
+  if (isLoading) return <Loading />;
+
+  video.snippet.description = setDescription(video.snippet.description);
+
   return (
     <>
       <section className={styles.videoPlayer}>
-        <iframe src={EMBED_URL + video.id} frameBorder='0' allowFullScreen></iframe>
+        <iframe src={EMBED_URL + video.id} frameBorder='0' allowFullScreen title={video.snippet.title}></iframe>
       </section>
       <div className={styles.title}>{video.snippet.title}</div>
       <ul className={styles.icons}>
@@ -77,3 +94,14 @@ const VideoDetail = ({ video, channel }) => {
 };
 
 export default VideoDetail;
+
+/** 상세 페이지 - 비디오 설명에 있는 링크와 태그 형식 만들기 */
+function setDescription(description) {
+  //줄바꿈 변환
+  let str = description.replaceAll('\n', '<br/>');
+  //url link로 변경
+  str = str.replace(/(?:https?:\/\/)[a-zA-Z0-9\.\/\-\_]+/g, (link) => `<a href='${link}' target='_blank'>${link}</a>`);
+  //태그들 link로 변경
+  str = str.replace(/#[a-zA-Z0-9ㄱ-ㅎ가-힣]+/g, (tag) => `<a href='#'>${tag}</a>`);
+  return str;
+}
