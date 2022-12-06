@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
+import { useYoutubeApi } from './context/youtubeApiContext';
 import '@fortawesome/fontawesome-free/js/all.js';
 import Header from './components/header/header';
 import MainPage from './components/mainPage/mainPage';
@@ -10,7 +11,8 @@ import Loading from './components/loading/loading';
 import './app.css';
 import { setSelectedKeyword } from './service/storage';
 
-const App = (props) => {
+const App = () => {
+  const { youtube } = useYoutubeApi();
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');
@@ -30,7 +32,7 @@ const App = (props) => {
       //error가 발생하지 않은 경우에만 이동
       if (data.length) {
         setVideos(data);
-        navigate(`/search`);
+        navigate(`/search/${keyword}`);
       }
     } catch (error) {
       setError(error.message);
@@ -57,7 +59,7 @@ const App = (props) => {
   const getMostPopularVideos = async () => {
     setIsLoading(true);
     try {
-      const videos = await props.youtube.videos();
+      const videos = await youtube.videos();
       setVideos(videos); //상세 페이지 이동시 동영상 목록으로 사용
       setIsLoading(false);
       return videos;
@@ -72,7 +74,7 @@ const App = (props) => {
   const getSearchResultVideos = async (keyword) => {
     setIsLoading(true);
     try {
-      const videos = await props.youtube.search(keyword);
+      const videos = await youtube.search(keyword);
       setIsLoading(false);
       return videos;
     } catch (error) {
@@ -87,11 +89,11 @@ const App = (props) => {
   const getVideoDetailData = async (videoId) => {
     setIsLoading(true);
     try {
-      const video = await props.youtube.videoDetail(videoId);
+      const video = await youtube.videoDetail(videoId);
       video.snippet.description = setDescription(video.snippet.description);
 
       const channelId = video.snippet.channelId;
-      const channel = await props.youtube.videoChannel(channelId);
+      const channel = await youtube.videoChannel(channelId);
       channel.statistics = { ...channel.statistics, subscribers: setSubscribers(channel.statistics.subscriberCount) };
 
       setVideo(video);
@@ -113,7 +115,7 @@ const App = (props) => {
       <Routes>
         <Route path='/' element={<MainPage getMostPopularVideos={getMostPopularVideos} handleVideoClick={handleVideoClick} />} />
         <Route path='/detail/:videoId' element={<VideoDetailPage video={video} channel={channel} videos={videos} handleVideoClick={handleVideoClick} />} />
-        <Route path='/search' element={<VideoSearchPage videos={videos} handleVideoClick={handleVideoClick} />} />
+        <Route path='/search/:keyword' element={<VideoSearchPage videos={videos} handleVideoClick={handleVideoClick} />} />
         <Route path='/error' element={<ErrorPage errorMessage={error} />} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
