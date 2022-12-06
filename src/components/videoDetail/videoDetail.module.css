@@ -25,82 +25,10 @@
   white-space: pre-wrap;
 }
 
-/* icons */
 .icons {
   display: flex;
   justify-content: space-around;
   padding-top: medium-space;
-}
-
-.icons button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.icon {
-  font-size: Large-size;
-  color: dark-gray-color;
-}
-
-.icon.active {
-  color: black-color;
-  font-weight: bold;
-}
-
-.icons button span {
-  padding: small-space;
-  font-size: small-size;
-  color: dark-gray-color;
-}
-
-/* channel info */
-.channelArea {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: medium-space medium-space XLarge-space 0;
-}
-
-.channelInfo {
-  flex: channel-info-left;
-  display: flex;
-  align-items: center;
-}
-
-.user {
-  width: user-size;
-  height: user-size;
-  border-radius: 50%;
-}
-
-.channel {
-  display: flex;
-  flex-direction: column;
-  margin-left: medium-space;
-}
-
-.channelTitle {
-  font-weight: bold;
-  padding-bottom: small-space;
-}
-
-.subscribers {
-  font-size: small-size;
-  color: dark-gray-color;
-}
-
-.buttons {
-  flex: channel-info-right;
-  text-align: right;
-  color: dark-gray-color;
-  font-size: Large-size;
-}
-
-.btn__subscription {
-  font-size: Large-size;
-  color: dark-gray-color;
-  padding-right: small-space;
 }
 
 .descriptionArea {
