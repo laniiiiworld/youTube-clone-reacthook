@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const cache = [];
 export default class Youtube {
   BASE_URL = 'https://www.googleapis.com/youtube/v3';
@@ -17,10 +19,10 @@ export default class Youtube {
       regionCode: 'KR',
     };
     try {
-      const videoLists = await getAPIData(url, obj);
-      return videoLists.items;
+      const videoLists = await axios.get(url + new URLSearchParams(obj));
+      return videoLists.data.items;
     } catch (err) {
-      throw new Error(err.message);
+      throw new Error(`${err.request.status}|API를 가져올 수 없습니다.`);
     }
   };
 
@@ -39,11 +41,11 @@ export default class Youtube {
     };
     if (cache[keyword]) return cache[keyword];
     try {
-      const videoLists = await getAPIData(url, obj);
-      cache[keyword] = videoLists.items;
+      const videoLists = await axios.get(url + new URLSearchParams(obj));
+      cache[keyword] = videoLists.data.items;
       return cache[keyword];
     } catch (err) {
-      throw new Error(err.message);
+      throw new Error(`${err.request.status}|API를 가져올 수 없습니다.`);
     }
   };
 
@@ -56,10 +58,10 @@ export default class Youtube {
       part: 'snippet',
     };
     try {
-      const video = await getAPIData(url, obj);
-      return video.items[0];
+      const video = await axios.get(url + new URLSearchParams(obj));
+      return video.data.items[0];
     } catch (err) {
-      throw new Error(err.message);
+      throw new Error(`${err.request.status}|API를 가져올 수 없습니다.`);
     }
   };
 
@@ -72,29 +74,10 @@ export default class Youtube {
       part: 'snippet,statistics',
     };
     try {
-      const channel = await getAPIData(url, obj);
-      return channel.items[0];
+      const channel = await axios.get(url + new URLSearchParams(obj));
+      return channel.data.items[0];
     } catch (err) {
-      throw new Error(err.message);
+      throw new Error(`${err.status}|API를 가져올 수 없습니다.`);
     }
   };
 }
-
-/** API에서 데이터 가져오기 */
-const getAPIData = async (url, obj) => {
-  const requestOptions = {
-    method: 'GET',
-    redirect: 'follow',
-  };
-
-  try {
-    let response = await fetch(url + new URLSearchParams(obj), requestOptions);
-    if (!response.ok) {
-      throw new Error(`${response.status}|API를 가져올 수 없습니다.`);
-    }
-    const myJson = response.json();
-    return myJson;
-  } catch (error) {
-    throw new Error(error.message);
-  }
-};
