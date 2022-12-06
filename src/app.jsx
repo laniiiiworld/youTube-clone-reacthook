@@ -5,9 +5,9 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import '@fortawesome/fontawesome-free/js/all.js';
 import { setSelectedKeyword } from './service/storage';
 import Header from './components/header/header';
-import MainPage from './components/mainPage/mainPage';
-import VideoDetailPage from './components/videoDetailPage/videoDetailPage';
-import VideoSearchPage from './components/videoSearchPage/videoSearchPage';
+import MainPage from './page/mainPage/mainPage';
+import VideoDetailPage from './page/videoDetailPage/videoDetailPage';
+import VideoSearchPage from './page/videoSearchPage/videoSearchPage';
 import './app.css';
 
 const queryClient = new QueryClient();

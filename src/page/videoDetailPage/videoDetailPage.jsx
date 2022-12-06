@@ -1,6 +1,6 @@
 import React from 'react';
-import VideoDetail from '../videoDetail/videoDetail';
-import VideoList from '../videoList/videoList';
+import VideoDetail from '../../components/videoDetail/videoDetail';
+import VideoList from '../../components/videoList/videoList';
 import styles from './videoDetailPage.module.css';
 
 const VideoDetailPage = () => {

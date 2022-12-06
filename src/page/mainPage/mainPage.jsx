@@ -1,4 +1,4 @@
-import VideoList from '../videoList/videoList';
+import VideoList from '../../components/videoList/videoList';
 import styles from './mainPage.module.css';
 
 const MainPage = () => {

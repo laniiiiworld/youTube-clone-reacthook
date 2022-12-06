@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useYoutubeApi } from '../../context/youtubeApiContext';
-import ErrorPage from '../errorPage/errorPage';
+import ErrorPage from '../../page/errorPage/errorPage';
 import Loading from '../loading/loading';
 import styles from './channel.module.css';
 
