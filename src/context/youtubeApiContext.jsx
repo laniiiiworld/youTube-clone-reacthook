@@ -3,7 +3,7 @@ import Youtube from '../service/youtube';
 
 export const YoutubeApiContext = createContext();
 
-const youtube = new Youtube(process.env.REACT_APP_YOUTUBE_API_KEY);
+const youtube = new Youtube();
 
 export function YoutubeApiProvider({ children }) {
   return <YoutubeApiContext.Provider value={{ youtube }}>{children}</YoutubeApiContext.Provider>;
