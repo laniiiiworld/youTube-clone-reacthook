@@ -1,27 +1,33 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import KeywordSearch from '../keywordSearch/keywordSearch';
 import SelectedKeyword from '../selectedKeyword/selectedKeyword';
 import styles from './keywordSearchArea.module.css';
-import { getSelectedKeywords, setSelectedKeywords, removeSelectedKeyword } from '../../service/storage';
+import { getSelectedKeywords, setSelectedKeyword, setSelectedKeywords, removeSelectedKeyword } from '../../service/storage';
 
-const KeywordSearchArea = ({ handleSearch }) => {
+const KeywordSearchArea = () => {
   const [keywordList, setKeywordList] = useState([]);
+  const navigate = useNavigate();
 
-  //최근검색어 검색
+  //검색
   const searchKeyword = (keyword, keywords) => {
-    handleSearch(keyword);
+    if (!keyword) return;
+    setSelectedKeyword('selectedKeywords', keyword);
     setKeywordList(keywords);
+    navigate(`/search/${keyword}`);
   };
 
   //검색어 입력란 focus -> 최근 검색어 목록 display
   const handleInputFocus = () => {
     setKeywordList(getSelectedKeywords('selectedKeywords', []));
   };
+
   //검색 영역 밖이 클릭된 경우, 최근 검색어 목록 display none
   window.addEventListener('click', (event) => {
     if (event.target.closest('#keywordSearchArea')) return;
     keywordList.length && setKeywordList([]);
   });
+
   //Esc가 눌린 경우, 최근 검색어 목록 display none
   window.addEventListener('keyup', (event) => {
     if (event.key === 'Escape') {

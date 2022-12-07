@@ -3,6 +3,8 @@
 
 .keywordSearch {
   display: flex;
+  justify-content: center;
+  width: 100%;
   height: calc(XXXLarge-size * 1.1);
 }
 
