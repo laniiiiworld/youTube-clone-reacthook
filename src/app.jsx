@@ -1,13 +1,11 @@
 import React from 'react';
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/js/all.js';
+import { useNavigate, Outlet } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import '@fortawesome/fontawesome-free/js/all.js';
+import { YoutubeApiProvider } from './context/youtubeApiContext';
 import { setSelectedKeyword } from './service/storage';
 import Header from './components/header/header';
-import MainPage from './page/mainPage/mainPage';
-import VideoDetailPage from './page/videoDetailPage/videoDetailPage';
-import VideoSearchPage from './page/videoSearchPage/videoSearchPage';
 import './app.css';
 
 const queryClient = new QueryClient();
@@ -26,11 +24,9 @@ const App = () => {
     <>
       <Header handleSearch={handleSearch} />
       <QueryClientProvider client={queryClient}>
-        <Routes>
-          <Route path='/' element={<MainPage />} />
-          <Route path='/detail/:videoId' element={<VideoDetailPage />} />
-          <Route path='/search/:keyword' element={<VideoSearchPage />} />
-        </Routes>
+        <YoutubeApiProvider>
+          <Outlet />
+        </YoutubeApiProvider>
         <ReactQueryDevtools initialIsOpen={false} />
       </QueryClientProvider>
     </>

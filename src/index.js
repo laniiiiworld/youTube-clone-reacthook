@@ -1,17 +1,29 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './app';
+import ErrorPage from './page/errorPage/errorPage';
+import MainPage from './page/mainPage/mainPage';
+import VideoDetailPage from './page/videoDetailPage/videoDetailPage';
+import VideoSearchPage from './page/videoSearchPage/videoSearchPage';
 import './index.css';
-import { YoutubeApiProvider } from './context/youtubeApiContext';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    errorElement: <ErrorPage />,
+    children: [
+      { index: true, element: <MainPage /> },
+      { path: '/detail/:videoId', element: <VideoDetailPage /> },
+      { path: '/search/:keyword', element: <VideoSearchPage /> },
+    ],
+  },
+]);
+
+const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <YoutubeApiProvider>
-        <App />
-      </YoutubeApiProvider>
-    </BrowserRouter>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
