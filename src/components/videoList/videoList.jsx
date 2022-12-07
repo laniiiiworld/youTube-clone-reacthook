@@ -17,15 +17,14 @@ const VideoList = ({ displayType }) => {
 
   return (
     <ul className={`${styles.videoList} ${displayType === 'list' ? styles.list : styles.grid}`}>
-      {videos
-        ? videos.map((video) => (
-            <VideoItem //
-              key={video.id}
-              displayType={displayType}
-              video={video}
-            />
-          ))
-        : ''}
+      {videos &&
+        videos.map((video) => (
+          <VideoItem //
+            key={video.id}
+            displayType={displayType}
+            video={video}
+          />
+        ))}
     </ul>
   );
 };

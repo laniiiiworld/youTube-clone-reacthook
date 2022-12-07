@@ -14,9 +14,11 @@
 @value small-space: 0.2em;
 
 /* media query */
-@value media-query-large: 992px;
+@value media-query-2XLarge: 1536px;
+@value media-query-XLarge: 1280px;
+@value media-query-large: 1024px;
 @value media-query-medium: 768px;
-@value media-query-small: 576px;
+@value media-query-small: 640px;
 
 /* video Detail */
 @value video-detail-left: 1 1 70%;

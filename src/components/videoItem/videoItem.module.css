@@ -22,6 +22,7 @@
 .thumbnailImg {
   width: 100%;
   min-width: thumbnail-small;
+  border-radius: 5%;
 }
 
 .info {
@@ -39,7 +40,8 @@
   overflow: hidden;
 }
 
-.channelTitle {
+.channelTitle,
+.publishedAt {
   font-size: small-size;
   color: dark-gray-color;
 }

@@ -1,4 +1,4 @@
-@value media-query-large, media-query-medium, media-query-small from '../../common/size.css';
+@value media-query-XLarge, media-query-large, media-query-medium, media-query-small from '../../common/size.css';
 
 .videoList {
   display: grid;
@@ -13,18 +13,23 @@
 }
 
 /* +++++++++++++++++ media query +++++++++++++++++ */
-@media only screen and (max-width: media-query-large) {
+@media only screen and (max-width: media-query-XLarge) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-@media only screen and (max-width: media-query-medium) {
+@media only screen and (max-width: media-query-large) {
   .grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media only screen and (max-width: media-query-small) {
+@media only screen and (max-width: media-query-medium) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: media-query-small) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
