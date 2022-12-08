@@ -1,26 +1,27 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { useYoutubeApi } from '../../context/youtubeApiContext';
-import ErrorPage from '../../page/errorPage/errorPage';
-import Loading from '../loading/loading';
 import styles from './channel.module.css';
 
-export default function Channel({ channelId }) {
-  const { videoId } = useParams();
+export default function Channel({ channelId, channelTitle }) {
   const { youtube } = useYoutubeApi();
-  const { isLoading, error, data: channel } = useQuery(['channel', videoId], () => youtube.videoChannel(channelId), { staleTime: 1000 * 60 * 5 });
-
-  if (error) return <ErrorPage errorMessage={error.message} />;
-  if (isLoading) return <Loading />;
+  const { data: channel } = useQuery(['channel', channelId], () => youtube.videoChannel(channelId), { staleTime: 1000 * 60 * 5 });
+  const thumbnailUrl = channel?.snippet?.thumbnails?.default?.url;
+  const subscribers = channel?.statistics?.subscribers;
 
   return (
     <div className={styles.channelArea}>
       <div className={styles.channelInfo}>
-        <img alt='' className={styles.user} src={channel.snippet.thumbnails.default.url} />
+        {thumbnailUrl ? ( //
+          <img alt={channelTitle} className={styles.user} src={thumbnailUrl} />
+        ) : (
+          <span>
+            <i className='fa-solid fa-user' />
+          </span>
+        )}
         <div className={styles.channel}>
-          <span className={styles.channelTitle}>{channel.snippet.title}</span>
-          <span className={styles.subscribers}>{channel.statistics.subscribers}</span>
+          <span className={styles.channelTitle}>{channelTitle}</span>
+          <span className={styles.subscribers}>{subscribers}</span>
         </div>
       </div>
       <div className={styles.buttons}>

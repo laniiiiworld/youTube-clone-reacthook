@@ -10,20 +10,15 @@ const VideoDetail = () => {
   const {
     state: { video },
   } = useLocation();
-
+  const { title, channelId, channelTitle, description } = video.snippet;
   const [isMore, setIsMore] = useState(false);
-
-  //더보기, 간략히 버튼
-  const handleIsMoreToggle = () => {
-    setIsMore(!isMore);
-  };
 
   return (
     <>
       <section className={styles.videoPlayer}>
-        <iframe src={EMBED_URL + video.id} frameBorder='0' allowFullScreen title={video.snippet.title}></iframe>
+        <iframe src={EMBED_URL + video.id} frameBorder='0' allowFullScreen title={title}></iframe>
       </section>
-      <div className={styles.title}>{video.snippet.title}</div>
+      <div className={styles.title}>{title}</div>
       <ul className={styles.icons}>
         <VideoIcon iconClass='fa-regular fa-thumbs-up active' text='0' />
         <VideoIcon iconClass='fa-regular fa-thumbs-down' text='0' />
@@ -32,14 +27,11 @@ const VideoDetail = () => {
         <VideoIcon iconClass='fas fa-plus active' text='저장' />
       </ul>
       <hr />
-      <Channel channelId={video.snippet.channelId} />
+      <Channel channelId={channelId} channelTitle={channelTitle} />
       <div className={styles.descriptionArea}>
-        <div className={`${styles.description} ${isMore ? '' : styles.clamp}`} dangerouslySetInnerHTML={{ __html: setDescription(video.snippet.description) }}></div>
-        <button className={`${styles.moreBtn} ${isMore ? styles.displayNone : ''}`} onClick={handleIsMoreToggle}>
-          더보기
-        </button>
-        <button className={`${styles.shortBtn} ${isMore ? '' : styles.displayNone}`} onClick={handleIsMoreToggle}>
-          간략히
+        <div className={`${styles.description} ${isMore ? '' : styles.clamp}`} dangerouslySetInnerHTML={{ __html: setDescription(description) }}></div>
+        <button className={`${isMore ? styles.shortBtn : styles.moreBtn}`} onClick={() => setIsMore(!isMore)}>
+          {isMore ? '간략히' : '더보기'}
         </button>
       </div>
     </>
@@ -48,13 +40,14 @@ const VideoDetail = () => {
 
 export default VideoDetail;
 
-/** 상세 페이지 - 비디오 설명에 있는 링크와 태그 형식 만들기 */
+/** 상세 페이지 - 비디오 설명에 있는 링크와 태그 추출 */
 function setDescription(description) {
-  //줄바꿈 변환
-  let str = description.replaceAll('\n', '<br/>');
-  //url link로 변경
-  str = str.replace(/(?:https?:\/\/)[a-zA-Z0-9\.\/\-\_]+/g, (link) => `<a href='${link}' target='_blank'>${link}</a>`);
-  //태그들 link로 변경
-  str = str.replace(/#[a-zA-Z0-9ㄱ-ㅎ가-힣]+/g, (tag) => `<a href='#'>${tag}</a>`);
-  return str;
+  const urlPattern = new RegExp(/(?:https?:\/\/)[a-zA-Z0-9ㄱ-ㅎ가-힣./-_?=&@%]+/, 'g');
+  const tagPattern = new RegExp(/#[a-zA-Z0-9ㄱ-ㅎ가-힣]+/, 'g');
+  let str = description;
+
+  str = str.replace(urlPattern, (link) => `<a href='${link}' target='_blank'>${link}</a>`);
+  str = str.replace(tagPattern, (tag) => `<span style='color:blue'>${tag}</span>`);
+
+  return str.replaceAll('\n', '<br/>');
 }

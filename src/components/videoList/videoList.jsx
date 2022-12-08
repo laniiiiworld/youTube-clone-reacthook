@@ -7,10 +7,19 @@ import ErrorPage from '../../page/errorPage/errorPage';
 import Loading from '../loading/loading';
 import VideoItem from '../videoItem/videoItem';
 
-const VideoList = ({ displayType }) => {
+const VideoList = ({ displayType, relatedToVideoId }) => {
   const { keyword } = useParams();
   const { youtube } = useYoutubeApi();
-  const { isLoading, error, data: videos } = useQuery(['videos', keyword], () => youtube.search(keyword), { staleTime: 1000 * 60 * 5 });
+  const {
+    isLoading,
+    error,
+    data: videos,
+  } = useQuery(
+    //
+    ['videos', relatedToVideoId ? relatedToVideoId : keyword],
+    () => youtube.search(keyword, relatedToVideoId),
+    { staleTime: relatedToVideoId ? 1000 * 60 * 5 : 1000 * 60 * 1 }
+  );
 
   if (error) return <ErrorPage errorMessage={error.message} />;
   if (isLoading) return <Loading />;

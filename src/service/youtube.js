@@ -8,8 +8,13 @@ export default class Youtube {
     });
   }
 
-  /** 메인 페이지,검색 페이지 - 비디오들 */
-  async search(keyword) {
+  /**
+   * 메인페이지 - 최신 트렌드 비디오들
+   * 검색페이지 - 검색결과
+   * 상세페이지 - 관련 비디오들
+   */
+  async search(keyword, relatedToVideoId) {
+    if (relatedToVideoId) return this.#relatedVideos(relatedToVideoId);
     return keyword ? this.#searchByKeyword(keyword) : this.#hotTrendVideos();
   }
 
@@ -23,6 +28,21 @@ export default class Youtube {
     const channel = res.data.items[0];
     channel.statistics = { ...channel.statistics, subscribers: this.#setSubscribers(channel.statistics.subscriberCount) };
     return channel;
+  }
+
+  /** 상세 페이지 - 관련 비디오들 */
+  async #relatedVideos(videoId) {
+    const obj = {
+      type: 'video',
+      videoSyndicated: true, //외부에서 재생할 수 있는 동영상만 포함
+      part: 'snippet',
+      maxResults: 25,
+      regionCode: 'kr',
+      relatedToVideoId: videoId,
+      safeSearch: 'strict',
+    };
+    const res = await this.httpClient.get('search', { params: obj });
+    return res.data.items.map((item) => ({ ...item, id: item.id.videoId }));
   }
 
   /** 메인 페이지 - hot trend videos */

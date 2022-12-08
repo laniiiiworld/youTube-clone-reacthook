@@ -1,5 +1,5 @@
 @value black-color, dark-gray-color from '../../common/colors.css';
-@value media-query-large, media-query-medium, media-query-small, Large-size, small-size,XLarge-space, medium-space, small-space,channel-info-left, channel-info-right, user-size from '../../common/size.css';
+@value media-query-large, media-query-medium, media-query-small, Large-size, small-size,XLarge-space, medium-space, small-space, user-size from '../../common/size.css';
 
 .channelArea {
   display: flex;
@@ -9,7 +9,6 @@
 }
 
 .channelInfo {
-  flex: channel-info-left;
   display: flex;
   align-items: center;
 }
@@ -37,13 +36,13 @@
 }
 
 .buttons {
-  flex: channel-info-right;
   text-align: right;
   color: dark-gray-color;
   font-size: Large-size;
 }
 
 .btn__subscription {
+  display: inline;
   font-size: Large-size;
   color: dark-gray-color;
   padding-right: small-space;
