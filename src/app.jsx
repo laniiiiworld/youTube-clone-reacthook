@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/js/all.js';
 import { Outlet } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import { YoutubeApiProvider } from './context/youtubeApiContext';
+import { YoutubeApiProvider } from './context/youtubeApiProvider';
 import Header from './components/header/header';
 import './app.css';
 
@@ -13,12 +13,12 @@ const App = () => {
   return (
     <>
       <Header />
-      <QueryClientProvider client={queryClient}>
-        <YoutubeApiProvider>
+      <YoutubeApiProvider>
+        <QueryClientProvider client={queryClient}>
           <Outlet />
-        </YoutubeApiProvider>
-        <ReactQueryDevtools initialIsOpen={false} />
-      </QueryClientProvider>
+          <ReactQueryDevtools initialIsOpen={false} />
+        </QueryClientProvider>
+      </YoutubeApiProvider>
     </>
   );
 };

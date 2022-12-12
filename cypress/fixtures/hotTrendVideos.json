@@ -1,0 +1,1400 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "WrRe5P2W_mqjT6mmueQAj3JG1sE",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "7Gwm8Hi5ViVRCRv3mu7tkf1OcBw",
+      "id": "tbJAfSqW2uA",
+      "snippet": {
+        "publishedAt": "2022-12-04T14:52:59Z",
+        "channelId": "UCkbJc8jMcTXwhtmN5VMwfXg",
+        "title": "main video title",
+        "description": "[8회 하이라이트] 장자승계 원칙을 깨부순 이성민?! 순양그룹 승계 싸움에 송중기 장작 한 스푼🔥\n#재벌집막내아들 #드라마하이라이트 #송중기\n\n📌 공홈에서 리플레이 : https://tv.jtbc.co.kr/rebornrich\n📌 #티빙에서스트리밍 : https://tving.onelink.me/xHqC/1vihef6r",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tbJAfSqW2uA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tbJAfSqW2uA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tbJAfSqW2uA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tbJAfSqW2uA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "main channel title",
+        "tags": ["재벌집막내아들", "송중기", "이성민", "신현빈", "재벌집막내아들드라마", "JTBC드라마", "JTBC금토일드라마", "송중기드라마", "이성민드라마", "신현빈드라마", "회귀물", "송중기회귀", "재벌집회귀", "웹소설원작", "재벌집막내아들첫방송", "재벌집막내아들하이라이트", "드라마하이라이트", "송중기하이라이트", "송중기재벌집막내아들", "재벌집막내아들8회하이라이트", "8회하이라이트", "하이라이트", "윤제문", "김정난", "박혁권"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "(SUB) [8회 하이라이트] 장자승계 원칙을 깨부순 이성민?! 순양그룹 승계 싸움에 송중기 장작 한 스푼🔥 | 재벌집 막내아들 | JTBC 221204 방송",
+          "description": "[8회 하이라이트] 장자승계 원칙을 깨부순 이성민?! 순양그룹 승계 싸움에 송중기 장작 한 스푼🔥\n#재벌집막내아들 #드라마하이라이트 #송중기\n\n📌 공홈에서 리플레이 : https://tv.jtbc.co.kr/rebornrich\n📌 #티빙에서스트리밍 : https://tving.onelink.me/xHqC/1vihef6r"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "HoEng3buN6joO44_vUj6fyLpd50",
+      "id": "2dis2nOET5U",
+      "snippet": {
+        "publishedAt": "2022-12-03T01:55:34Z",
+        "channelId": "UCArK9MK34LsQzPJrl5TZmYA",
+        "title": "[안정환의 말말말] 16강을 향한 불굴의 의지🔥 9%의 기적을 이뤄낸 대한민국 ㅣ 2022 카타르월드컵 대한민국 vs 포르투갈",
+        "description": "[2022 카타르월드컵 대한민국 vs 포르투갈]\n\n태극전사들의 16강을 향한 마지막 기회❗❗\n9%의 기적을 향해 달려가는 대한민국! \n12년 만에 16강을 일궈내는 역사적인 현장\n안느의 해설과 함께하세요!\n\n#카타르월드컵 #안정환 #말말말\n#대한민국 #포르투갈 #김성주 #서형욱",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2dis2nOET5U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2dis2nOET5U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2dis2nOET5U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2dis2nOET5U/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/2dis2nOET5U/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MBC스포츠탐험대",
+        "tags": ["MBC", "스포츠", "안정환", "말말말", "안정환말말말", "대한민국", "카타르월드컵", "손흥민", "김성주", "서형욱", "포르투갈", "조규성", "이강인", "벤투", "황희찬", "호날두", "16강", "기적"],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[안정환의 말말말] 16강을 향한 불굴의 의지🔥 9%의 기적을 이뤄낸 대한민국 ㅣ 2022 카타르월드컵 대한민국 vs 포르투갈",
+          "description": "[2022 카타르월드컵 대한민국 vs 포르투갈]\n\n태극전사들의 16강을 향한 마지막 기회❗❗\n9%의 기적을 향해 달려가는 대한민국! \n12년 만에 16강을 일궈내는 역사적인 현장\n안느의 해설과 함께하세요!\n\n#카타르월드컵 #안정환 #말말말\n#대한민국 #포르투갈 #김성주 #서형욱"
+        },
+        "defaultAudioLanguage": "en-US"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Wt_Av-0fCnm2iTGvtbcdRHEOdio",
+      "id": "877WV_ejUJc",
+      "snippet": {
+        "publishedAt": "2022-12-03T01:15:00Z",
+        "channelId": "UCYRrUD5v5j_Ei8sKOo7mhoQ",
+        "title": "[포르투갈전 중계석] 울컥한 안정환..“후배들 다 뽀뽀해주고 싶어요!”",
+        "description": "기적 같았던 16강 진출 순간 냉철해 보이던 안정환 위원이 울컥하는 모습을 보였습니다. 감동의 중계석 엠빅뉴스에서 확인하시죠\n\n#안정환 #김성주 #16강 #카타르월드컵 #MBC해설",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/877WV_ejUJc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/877WV_ejUJc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/877WV_ejUJc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/877WV_ejUJc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/877WV_ejUJc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "엠빅뉴스",
+        "tags": ["안정환", "김성주", "16강", "카타르월드컵", "MBC해설", "카타르", "월드컵", "대한민국", "포르투갈", "호날두", "16강진출", "조2위", "가나", "우루과이", "해설위원", "황희찬", "손흥민", "김영권", "축구", "MBC", "엠빅뉴스", "엠빅스포츠", "벤투감독", "퇴장", "관중석", "하이라이트"],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[포르투갈전 중계석] 울컥한 안정환..“후배들 다 뽀뽀해주고 싶어요!”",
+          "description": "기적 같았던 16강 진출 순간 냉철해 보이던 안정환 위원이 울컥하는 모습을 보였습니다. 감동의 중계석 엠빅뉴스에서 확인하시죠\n\n#안정환 #김성주 #16강 #카타르월드컵 #MBC해설"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "je8kjvtuPXRtqKpxQdH8lEKrXBY",
+      "id": "bVxNm0F43gk",
+      "snippet": {
+        "publishedAt": "2022-12-02T18:57:11Z",
+        "channelId": "UCYRrUD5v5j_Ei8sKOo7mhoQ",
+        "title": "[직캠영상]2:1 승리 확정 순간의 모습! 그리고 16강이 확정되는 순간!! 선수들 모습 모두 모았습니다!!!",
+        "description": "2:1 역전승! 그리고 경기 끝! 하지만 선수들은 마냥 기뻐할 수 없었습니다. 우루과이와 가나와의 경기가 진행되던 상황이었기 때문입니다. 그라운드에 모두 모여 간절히 바라던 그때! 16강 확정! 경기 직후 모든 상황 담아봤습니다.\n\n#대한민국 #16강 #포르투갈 #카타르월드컵\n\n[영상취재: 허원철]",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bVxNm0F43gk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bVxNm0F43gk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bVxNm0F43gk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/bVxNm0F43gk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/bVxNm0F43gk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "엠빅뉴스",
+        "tags": ["카타르", "호날두", "손흥민", "김영권", "황희찬", "엠빅뉴스", "역전", "월드컵", "국가대표", "브라질", "16강", "8강", "결승", "2002", "어게인"],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[직캠영상]2:1 승리 확정 순간의 모습! 그리고 16강이 확정되는 순간!! 선수들 모습 모두 모았습니다!!!",
+          "description": "2:1 역전승! 그리고 경기 끝! 하지만 선수들은 마냥 기뻐할 수 없었습니다. 우루과이와 가나와의 경기가 진행되던 상황이었기 때문입니다. 그라운드에 모두 모여 간절히 바라던 그때! 16강 확정! 경기 직후 모든 상황 담아봤습니다.\n\n#대한민국 #16강 #포르투갈 #카타르월드컵\n\n[영상취재: 허원철]"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "sEuNcHTYhl9285RnzQtYOvu-dp8",
+      "id": "YijfrwFWHRI",
+      "snippet": {
+        "publishedAt": "2022-12-03T14:41:43Z",
+        "channelId": "UCkbJc8jMcTXwhtmN5VMwfXg",
+        "title": "(SUB) [7회 하이라이트] 이성민 특 : 손자도 안 봐줌,, 송중기 기세 꺾어버리는 분노의 설욕전 시작💥 | 재벌집 막내아들 | JTBC 221203 방송",
+        "description": "[7회 하이라이트] 이성민 특 : 손자도 안 봐줌,, 송중기 기세 꺾어버리는 분노의 설욕전 시작💥\n#재벌집막내아들 #드라마하이라이트 #송중기\n\n📌 공홈에서 리플레이 : https://tv.jtbc.co.kr/rebornrich\n📌 #티빙에서스트리밍 : https://tving.onelink.me/xHqC/1vihef6r",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YijfrwFWHRI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YijfrwFWHRI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YijfrwFWHRI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YijfrwFWHRI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YijfrwFWHRI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "JTBC Drama",
+        "tags": ["재벌집막내아들", "송중기", "이성민", "신현빈", "재벌집막내아들드라마", "JTBC드라마", "JTBC금토일드라마", "송중기드라마", "이성민드라마", "신현빈드라마", "회귀물", "송중기회귀", "재벌집회귀", "웹소설원작", "재벌집막내아들첫방송", "재벌집막내아들하이라이트", "드라마하이라이트", "송중기하이라이트", "송중기재벌집막내아들", "재벌집막내아들7회하이라이트", "7회하이라이트", "하이라이트", "윤제문", "김정난", "박혁권"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "(SUB) [7회 하이라이트] 이성민 특 : 손자도 안 봐줌,, 송중기 기세 꺾어버리는 분노의 설욕전 시작💥 | 재벌집 막내아들 | JTBC 221203 방송",
+          "description": "[7회 하이라이트] 이성민 특 : 손자도 안 봐줌,, 송중기 기세 꺾어버리는 분노의 설욕전 시작💥\n#재벌집막내아들 #드라마하이라이트 #송중기\n\n📌 공홈에서 리플레이 : https://tv.jtbc.co.kr/rebornrich\n📌 #티빙에서스트리밍 : https://tving.onelink.me/xHqC/1vihef6r"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "7W6G9XRkl3_zTgKh5ALZeOXr-Mo",
+      "id": "iFnIPPorydo",
+      "snippet": {
+        "publishedAt": "2022-12-03T02:05:04Z",
+        "channelId": "UClRNDVO8093rmRTtLe4GEPw",
+        "title": "벤투 감독님과 월드컵 16강행 직관한 썰 - 카타르(4)",
+        "description": "안녕하세요\n운이 좋아도 너무 좋은 사람입니다.\n모든 사람이 행복하셨으면 좋겠습니다.\n저는 너무 행복합니다.\n브라질전으로 찾아뵙겠습니다.\n감사합니다.\n\n-------------------------------------------------------------------------------\ninsta : @jbkwak\nmail : kwaktube@sandboxnetwork.net\n촬영장비 : 고프로 히어로 10 블랙\n편집 : 맥북프로 16인치, 파이널컷 X\n음원 : Epidemic sound&Artlist",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iFnIPPorydo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iFnIPPorydo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iFnIPPorydo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iFnIPPorydo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iFnIPPorydo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "곽튜브KWAKTUBE",
+        "tags": ["월드컵", "포르투갈", "벤투", "월드컵 포르투갈전", "포르투칼", "포르투칼전", "포르투갈전", "포루투갈"],
+        "categoryId": "19",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "벤투 감독님과 월드컵 16강행 직관한 썰 - 카타르(4)",
+          "description": "안녕하세요\n운이 좋아도 너무 좋은 사람입니다.\n모든 사람이 행복하셨으면 좋겠습니다.\n저는 너무 행복합니다.\n브라질전으로 찾아뵙겠습니다.\n감사합니다.\n\n-------------------------------------------------------------------------------\ninsta : @jbkwak\nmail : kwaktube@sandboxnetwork.net\n촬영장비 : 고프로 히어로 10 블랙\n편집 : 맥북프로 16인치, 파이널컷 X\n음원 : Epidemic sound&Artlist"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "F_TMf3MbsEFeFOy7m9cioxlMnmA",
+      "id": "3caJhwSDMvU",
+      "snippet": {
+        "publishedAt": "2022-12-03T01:30:01Z",
+        "channelId": "UCDIB1DOwPPe58M2fHPyVVDA",
+        "title": "보이는 중계석 #7.고맙습니다 [2022 카타르월드컵 | 포르투갈전]",
+        "description": "#카타르월드컵 #대한민국 #포르투갈\n\n가능성은 적었지만 희망은 있었습니다.\n희망을 현실로 만들기 위해 기적같은 힘이 필요했습니다. 그리고 마침내 그 힘이 포르투갈전에서 솟아났습니다!!! \n\n대한민국 대표팀의 조별리그 마지막 경기! \n그 순간을 함께한 중계석 상황을 담았습니다",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3caJhwSDMvU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3caJhwSDMvU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3caJhwSDMvU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/3caJhwSDMvU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/3caJhwSDMvU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KBS 스포츠",
+        "tags": ["KBS", "스포츠", "카타르월드컵", "카타르", "월드컵", "대한민국", "한국", "손흥민", "이강인", "조규성", "김진수", "정우영", "조별리그", "가나", "가나전", "인터뷰", "붉은악마", "황의조", "16강", "H조", "포르투갈", "우루과이", "나상호", "김승규", "김문환", "김민재", "김영권", "황인범", "권창훈", "호날두", "황희찬", "3차전", "이재성"],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "보이는 중계석 #7.고맙습니다 [2022 카타르월드컵 | 포르투갈전]",
+          "description": "#카타르월드컵 #대한민국 #포르투갈\n\n가능성은 적었지만 희망은 있었습니다.\n희망을 현실로 만들기 위해 기적같은 힘이 필요했습니다. 그리고 마침내 그 힘이 포르투갈전에서 솟아났습니다!!! \n\n대한민국 대표팀의 조별리그 마지막 경기! \n그 순간을 함께한 중계석 상황을 담았습니다"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "HdZHRnillP7UeGJeubxb6aiaJdg",
+      "id": "0DwFOQeUkuI",
+      "snippet": {
+        "publishedAt": "2022-12-03T10:02:39Z",
+        "channelId": "UCQabORQKQRHP-iUqe-xIFvg",
+        "title": "가나, 우루과이 잡으시고, 바지적삼, 다 적시셨네  / 스브스뉴스",
+        "description": "대한민국이 12년 만에 월드컵 원정 16강 진출을 이뤄냈습니다! 아주 낮은 확률의 경우의 수를 뚫었고 심지어 종료 직전에 골을 기록하며 대한민국 전역이 들썩였는데요. 가나가 우루과이에 2:0으로 패했지만, 추가 실점하지 않으며 우리가 다득점에 앞서 진출하게 됐습니다. 한편 가나는 우루과이의 탈락을 바라듯 마지막까지 우루과이의 파상공세를 저지했는데요. 결국 우루과이의 발목을 잡는 데 성공한 가나, 월드컵에선 탈락했지만 가나 팬들은 축제 분위기라고 합니다. 왜 그런 걸까요? 자세한 내용은 영상으로 확인하세요\n\n✔ 뉴스에는 위아래가 없다, 스브스뉴스\n\n- 스브스뉴스 링크 -\nFacebook :  https://www.facebook.com/subusunews\nInstagram :  https://www.instagram.com/subusunews\n홈페이지 : https://news.sbs.co.kr/news/subusuNews.do?plink=GNB&cooper=SBSNEWS\n\n#월드컵 #16강 #가나",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0DwFOQeUkuI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0DwFOQeUkuI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0DwFOQeUkuI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0DwFOQeUkuI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0DwFOQeUkuI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "스브스뉴스 SUBUSUNEWS",
+        "tags": ["월드컵", "카타르월드컵", "가나", "우루과이", "손흥민", "황희찬", "이강인", "조규성", "브라질전", "하이라이트", "16강", "포르투갈전", "기적"],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "가나, 우루과이 잡으시고, 바지적삼, 다 적시셨네  / 스브스뉴스",
+          "description": "대한민국이 12년 만에 월드컵 원정 16강 진출을 이뤄냈습니다! 아주 낮은 확률의 경우의 수를 뚫었고 심지어 종료 직전에 골을 기록하며 대한민국 전역이 들썩였는데요. 가나가 우루과이에 2:0으로 패했지만, 추가 실점하지 않으며 우리가 다득점에 앞서 진출하게 됐습니다. 한편 가나는 우루과이의 탈락을 바라듯 마지막까지 우루과이의 파상공세를 저지했는데요. 결국 우루과이의 발목을 잡는 데 성공한 가나, 월드컵에선 탈락했지만 가나 팬들은 축제 분위기라고 합니다. 왜 그런 걸까요? 자세한 내용은 영상으로 확인하세요\n\n✔ 뉴스에는 위아래가 없다, 스브스뉴스\n\n- 스브스뉴스 링크 -\nFacebook :  https://www.facebook.com/subusunews\nInstagram :  https://www.instagram.com/subusunews\n홈페이지 : https://news.sbs.co.kr/news/subusuNews.do?plink=GNB&cooper=SBSNEWS\n\n#월드컵 #16강 #가나"
+        },
+        "defaultAudioLanguage": "en"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "vgnE_brKXpLCrA1DO0oxBx-M_8A",
+      "id": "UHrWNZcjy2w",
+      "snippet": {
+        "publishedAt": "2022-12-03T01:00:15Z",
+        "channelId": "UCMEbRpvuwTbXxGiyDb1mT8w",
+        "title": "벤투 감독 부재에도 해냈다! 역시 포르투갈은 이겨야 제 맛이지 (ft. 배박승) /비디오머그",
+        "description": "2022 카타르 월드컵 H조 3차전, 대한민국이 포르투갈을 2:1로 이기고 우루과이가 가나를 2:0으로 이기면서 대한민국이 12년 만에 월드컵 16강 진출에 성공했습니다. '이강인-김영권', '손흥민-황희찬'이 합작한 환상적인 골에 해버지는 결국 침착의 끈을 놓았습니다.\n\n(편집 : 정용희 / 구성 : 조도혜 / 제작 : D콘텐츠기획부)\n\n✔신뢰할 수 있는 재미, 비디오머그 VIDEOMUG\n\n#비디오머그 #포르투갈전 #16강진출 #VMG\n\n▶비디오머그 채널 구독하기 : https://n.sbs.co.kr/mugTube\n▶Homepage : https://videomug.co.kr\n▶Facebook : https://www.facebook.com/videomug\n▶Twitter : https://twitter.com/videomug_sbs",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UHrWNZcjy2w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UHrWNZcjy2w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UHrWNZcjy2w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/UHrWNZcjy2w/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "비디오머그 - VIDEOMUG",
+        "tags": ["SBS VIDEOMUG", "VIDEOMUG", "format:해설", "location:서울", "series:비디오머그", "source:영상", "type:디지털", "비디오 MUG", "퍙대ㅡㅕㅎ"],
+        "categoryId": "25",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "벤투 감독 부재에도 해냈다! 역시 포르투갈은 이겨야 제 맛이지 (ft. 배박승) /비디오머그",
+          "description": "2022 카타르 월드컵 H조 3차전, 대한민국이 포르투갈을 2:1로 이기고 우루과이가 가나를 2:0으로 이기면서 대한민국이 12년 만에 월드컵 16강 진출에 성공했습니다. '이강인-김영권', '손흥민-황희찬'이 합작한 환상적인 골에 해버지는 결국 침착의 끈을 놓았습니다.\n\n(편집 : 정용희 / 구성 : 조도혜 / 제작 : D콘텐츠기획부)\n\n✔신뢰할 수 있는 재미, 비디오머그 VIDEOMUG\n\n#비디오머그 #포르투갈전 #16강진출 #VMG\n\n▶비디오머그 채널 구독하기 : https://n.sbs.co.kr/mugTube\n▶Homepage : https://videomug.co.kr\n▶Facebook : https://www.facebook.com/videomug\n▶Twitter : https://twitter.com/videomug_sbs"
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "xCH6Iz3nBs973TLe7jlG6h-ZvkA",
+      "id": "9PDY0-D_K1A",
+      "snippet": {
+        "publishedAt": "2022-12-03T01:10:00Z",
+        "channelId": "UCUQVGXF4U-PupGCPdIRX4Qw",
+        "title": "\"우루과이 경기 언제 끝나?!\"...경기 후 태극전사들은 무슨 얘기를 나눴을까? (ft.손흥민의 눈물) / 스포츠머그",
+        "description": "대한민국 축구대표팀이 카타르 월드컵에서 기적 같은 승리로 16강 진출에 성공했습니다. 우루과이와 득점 없이 비기고 가나에 2대 3으로 졌던 벤투호는 3일(한국시간) 강호 포르투갈과 대회 조별리그 H조 최종전에서 2대 1 역전승을 거뒀습니다. 한국으로서는 무조건 승리가 필요했던 오늘 경기에서 막판까지 1대 1로 맞서 탈락 위기에 놓였습니다. 그러나 후반 46분 황희찬이 손흥민의 도움을 받아 결승골을 터트려 극적으로 16강행 티켓을 손에 넣었습니다.\n\n같은 시각 열린 H조 최종전에서 2대 0으로 앞선 우루과이가 가나를 상대로 한 골이라도 더 넣으면 한국이 탈락하는 상황이었습니다. 먼저 경기가 끝난 우리 선수들은 우루과이와 가나의 경기를 지켜보며 가슴 졸인 시간을 보냈는데요. 16강 진출을 확정한 뒤 태극전사들은 환호했고, '주장' 손흥민은 기쁨의 눈물을 흘렸습니다. 심장 쫄깃했던 16강 확정 순간 선수들의 모습, 〈스포츠머그〉에서 전해드립니다.\n\n🥇스포츠는 뭐다? ▶ 스포츠머그 SPORTSMUG\n\n#스포츠머그 #월드컵 #포르투갈 #16강 #손흥민\n\n▶스포츠머그 채널 구독하기 : https://n.sbs.co.kr/sportsMugTube\n▶Homepage : https://videomug.co.kr\n▶Facebook : https://www.facebook.com/videomug\n▶Twitter : https://twitter.com/videomug_sbs",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9PDY0-D_K1A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9PDY0-D_K1A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9PDY0-D_K1A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/9PDY0-D_K1A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/9PDY0-D_K1A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "스포츠머그 - SPORTSMUG",
+        "tags": ["SBS SPORTSMUG", "SPORTSMUG", "format:해설", "location:서울", "series:스포츠머그", "source:영상", "type:디지털", "네ㅐㄳ느ㅕㅎ", "스포츠 MUG", "월드컵", "카타르월드컵", "손흥민", "우루과이", "포르투갈", "16강", "축구"],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "\"우루과이 경기 언제 끝나?!\"...경기 후 태극전사들은 무슨 얘기를 나눴을까? (ft.손흥민의 눈물) / 스포츠머그",
+          "description": "대한민국 축구대표팀이 카타르 월드컵에서 기적 같은 승리로 16강 진출에 성공했습니다. 우루과이와 득점 없이 비기고 가나에 2대 3으로 졌던 벤투호는 3일(한국시간) 강호 포르투갈과 대회 조별리그 H조 최종전에서 2대 1 역전승을 거뒀습니다. 한국으로서는 무조건 승리가 필요했던 오늘 경기에서 막판까지 1대 1로 맞서 탈락 위기에 놓였습니다. 그러나 후반 46분 황희찬이 손흥민의 도움을 받아 결승골을 터트려 극적으로 16강행 티켓을 손에 넣었습니다.\n\n같은 시각 열린 H조 최종전에서 2대 0으로 앞선 우루과이가 가나를 상대로 한 골이라도 더 넣으면 한국이 탈락하는 상황이었습니다. 먼저 경기가 끝난 우리 선수들은 우루과이와 가나의 경기를 지켜보며 가슴 졸인 시간을 보냈는데요. 16강 진출을 확정한 뒤 태극전사들은 환호했고, '주장' 손흥민은 기쁨의 눈물을 흘렸습니다. 심장 쫄깃했던 16강 확정 순간 선수들의 모습, 〈스포츠머그〉에서 전해드립니다.\n\n🥇스포츠는 뭐다? ▶ 스포츠머그 SPORTSMUG\n\n#스포츠머그 #월드컵 #포르투갈 #16강 #손흥민\n\n▶스포츠머그 채널 구독하기 : https://n.sbs.co.kr/sportsMugTube\n▶Homepage : https://videomug.co.kr\n▶Facebook : https://www.facebook.com/videomug\n▶Twitter : https://twitter.com/videomug_sbs"
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "OCvnDCK3rH3_TVAVgClHd3hoVZw",
+      "id": "iTTuBYq7trQ",
+      "snippet": {
+        "publishedAt": "2022-12-02T23:15:43Z",
+        "channelId": "UC7JbUmyD7g8JH6LvkkQuSZQ",
+        "title": "포르투갈전 종료 후 대한민국 국가대표팀 선수들을 만났습니다",
+        "description": "진짜 다들 너무 고생했어요ㅠㅠ\n\n★★★★★★★★\n원희형 인스타그램\nInstagram : https://www.instagram.com/wonhee06/?hl=ko\n★★★★★★★★★★★★★★★★★★★★★★★★★★★",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iTTuBYq7trQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iTTuBYq7trQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iTTuBYq7trQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iTTuBYq7trQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iTTuBYq7trQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이거해조 원희형",
+        "tags": [
+          "원희형",
+          "조원희",
+          "이거해조",
+          "이거해조원희형",
+          "이거해조 원희형",
+          "kbs",
+          "이광용",
+          "남현종",
+          "한준희",
+          "구자철",
+          "구자봉",
+          "한준의 의원",
+          "아나운서",
+          "해설",
+          "축구",
+          "국가대표",
+          "이강인",
+          "김민재",
+          "손흥민",
+          "H조",
+          "월드컵",
+          "부상",
+          "첫 골",
+          "16강",
+          "몇승",
+          "승리",
+          "패배",
+          "명단",
+          "월드컵 명단",
+          "대표",
+          "벤투",
+          "벤투호",
+          "KBS 해설",
+          "해설위원",
+          "카타르",
+          "카타르 월드컵",
+          "축구대회",
+          "명단 발표",
+          "훈련장",
+          "오픈트레이닝",
+          "최종명단",
+          "최종",
+          "국가대표 최종명단",
+          "카타르 현지",
+          "기름국",
+          "기자",
+          "외국기자",
+          "외신기자",
+          "ibc",
+          "h조",
+          "외국",
+          "가나",
+          "토마스 파티",
+          "조2위",
+          "2:3",
+          "조규성",
+          "아쉬운",
+          "우루과이",
+          "포르투갈",
+          "황희찬",
+          "정우영",
+          "가야돼",
+          "믹스트존",
+          "국가대표팀",
+          "국가대표 선수",
+          "대면",
+          "만남",
+          "호날두",
+          "호우",
+          "시우",
+          "동점골",
+          "역전",
+          "역습",
+          "어시스트",
+          "마스크",
+          "규성",
+          "뭉클",
+          "감동"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "포르투갈전 종료 후 대한민국 국가대표팀 선수들을 만났습니다",
+          "description": "진짜 다들 너무 고생했어요ㅠㅠ\n\n★★★★★★★★\n원희형 인스타그램\nInstagram : https://www.instagram.com/wonhee06/?hl=ko\n★★★★★★★★★★★★★★★★★★★★★★★★★★★"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "RbPZKe_7aZs2RNSUt6PEw-s_P1k",
+      "id": "iP3u7ipB-OY",
+      "snippet": {
+        "publishedAt": "2022-12-03T01:00:23Z",
+        "channelId": "UCDIB1DOwPPe58M2fHPyVVDA",
+        "title": "기적의 16강 직후 뒷 이야기 (feat.축제의 라커룸)",
+        "description": "#한국 #라커룸 #황희찬 #손흥민 #김영권 #인터뷰 #한국16강\n\n12년 만의 월드컵 16강 진출에 성공한 대한민국!\n감격적인 승리의 순간 그 후 이야기 함께 보시죠",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iP3u7ipB-OY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iP3u7ipB-OY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iP3u7ipB-OY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/iP3u7ipB-OY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/iP3u7ipB-OY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KBS 스포츠",
+        "tags": ["한국16강", "손흥민", "황희찬", "김영권", "라커룸", "인터뷰", "축제", "기적", "투혼", "승리", "한국", "포르투갈", "벤투", "이강인", "경우의수", "환희", "국뽕", "역전골", "어시스트", "질주_손흥민", "골장면", "믹스트존", "기자회견"],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "기적의 16강 직후 뒷 이야기 (feat.축제의 라커룸)",
+          "description": "#한국 #라커룸 #황희찬 #손흥민 #김영권 #인터뷰 #한국16강\n\n12년 만의 월드컵 16강 진출에 성공한 대한민국!\n감격적인 승리의 순간 그 후 이야기 함께 보시죠"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "HUv6JI6b7XEzdQf8n79zWmdSiuQ",
+      "id": "vB38rLvtPpI",
+      "snippet": {
+        "publishedAt": "2022-12-04T07:00:28Z",
+        "channelId": "UCjHn_Os5NoCXZyoXzuKth9w",
+        "title": "재벌집 막내아들에 나온 ‘국민 기업’의 모델.. 누가 망하게 했나, 기아자동차 이야기 / 소비더머니",
+        "description": "현대차그룹의 일원이 되기 전, 과거의 기아자동차는 재벌이 아닌데도 재계서열 10위 안에 들 만큼 규모가 컸습니다. 또 재벌가의 일원이 아닌 공채 사원 출신이 회장으로서 회사를 이끌며 한동안 ‘국민 기업’이라고 불리기도 했죠. 하지만 이러한 성공 신화는 오래가지 못했습니다. 그리고 ‘국민 기업’이 급격하게 무너졌던 ‘기아 사태’는 IMF 외환위기의 도화선이 됐다는 평가마저 받았죠. 누가 기아차를 망하게 했을까요? 과거의 기아자동차 이야기를 전해드립니다.\n\n#기아자동차 #김선홍회장 #소비더머니",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vB38rLvtPpI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vB38rLvtPpI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vB38rLvtPpI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vB38rLvtPpI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vB38rLvtPpI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "소비더머니",
+        "tags": ["현대자동차", "프라이드", "봉고", "카니발", "세피아", "포텐샤", "캐피탈", "콩코드", "국민기업", "IMF외환위기", "14F"],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "재벌집 막내아들에 나온 ‘국민 기업’의 모델.. 누가 망하게 했나, 기아자동차 이야기 / 소비더머니",
+          "description": "현대차그룹의 일원이 되기 전, 과거의 기아자동차는 재벌이 아닌데도 재계서열 10위 안에 들 만큼 규모가 컸습니다. 또 재벌가의 일원이 아닌 공채 사원 출신이 회장으로서 회사를 이끌며 한동안 ‘국민 기업’이라고 불리기도 했죠. 하지만 이러한 성공 신화는 오래가지 못했습니다. 그리고 ‘국민 기업’이 급격하게 무너졌던 ‘기아 사태’는 IMF 외환위기의 도화선이 됐다는 평가마저 받았죠. 누가 기아차를 망하게 했을까요? 과거의 기아자동차 이야기를 전해드립니다.\n\n#기아자동차 #김선홍회장 #소비더머니"
+        }
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "mJFXFB8pnmJLnsKHblascpZ7Moo",
+      "id": "Y359kOxwJcw",
+      "snippet": {
+        "publishedAt": "2022-12-02T23:38:51Z",
+        "channelId": "UCpjOmwiy88a9EV3Rv8ukJgw",
+        "title": "\"월드컵 16강 진출!\" 선수들을 만나 봤습니다아아아아아아아 | 카타르 월드컵 EP.17",
+        "description": "#대한민국 #축구국가대표팀 더 뜨겁게, 𝐭𝐡𝐞 𝐑𝐞𝐝𝐬🔥\n\n#대한축구협회 공식 채널\r\n대한민국 축구 국가대표팀  https://www.facebook.com/KoreaFootballTeam\r\n페이스북 : https://www.facebook.com/kfa\r\n인스타그램 : https://instagram.com/thekfa/\r\n트위터 : https://twitter.com/theKFA\r\n네이버TV http://tv.naver.com/kfa",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Y359kOxwJcw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Y359kOxwJcw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Y359kOxwJcw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Y359kOxwJcw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Y359kOxwJcw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "KFATV_대한민국 축구 국가대표팀",
+        "tags": [
+          "축구",
+          "대한축구협회",
+          "축구국가대표팀",
+          "남자축구대표팀",
+          "여자축구대표팀",
+          "벤투",
+          "벤투호",
+          "김학범",
+          "김학범호",
+          "학범슨",
+          "콜린벨",
+          "콜린벨호",
+          "손흥민",
+          "이강인",
+          "황의조",
+          "김민재",
+          "황인범",
+          "김문환",
+          "이용",
+          "홍철",
+          "원두재",
+          "이동경",
+          "이동준",
+          "박지수",
+          "정우영",
+          "기성용",
+          "황희찬",
+          "권창훈",
+          "이재성",
+          "김신욱",
+          "송민규",
+          "엄원상",
+          "조현우",
+          "김승규",
+          "구성윤",
+          "김영권",
+          "권경원",
+          "송범근",
+          "이민아",
+          "장슬기",
+          "이금민",
+          "이승우",
+          "도쿄올림픽",
+          "카타르월드컵",
+          "박지성",
+          "이영표",
+          "김병지",
+          "이천수",
+          "안정환",
+          "KBS",
+          "SBS",
+          "MBC",
+          "SPORTS",
+          "SON",
+          "지소연",
+          "스포츠",
+          "한국축구",
+          "한국",
+          "슛포러브",
+          "고알레",
+          "인캠",
+          "인사이드캠",
+          "국가대표",
+          "월드컵",
+          "카타르",
+          "FIFA",
+          "WORLDCUP",
+          "브라질",
+          "아르헨티나",
+          "AFC",
+          "SOCCER",
+          "Son Heung-min",
+          "Lee Kang-in",
+          "Hwang Hee-chan",
+          "KFA",
+          "Tottenham",
+          "challenge",
+          "recommendation",
+          "Pass",
+          "Kick",
+          "FOOTBALL",
+          "Germany",
+          "Brazil",
+          "Argentina",
+          "France",
+          "Ghana",
+          "England",
+          "Uruguay",
+          "Portugal"
+        ],
+        "categoryId": "17",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "\"월드컵 16강 진출!\" 선수들을 만나 봤습니다아아아아아아아 | 카타르 월드컵 EP.17",
+          "description": "#대한민국 #축구국가대표팀 더 뜨겁게, 𝐭𝐡𝐞 𝐑𝐞𝐝𝐬🔥\n\n#대한축구협회 공식 채널\r\n대한민국 축구 국가대표팀  https://www.facebook.com/KoreaFootballTeam\r\n페이스북 : https://www.facebook.com/kfa\r\n인스타그램 : https://instagram.com/thekfa/\r\n트위터 : https://twitter.com/theKFA\r\n네이버TV http://tv.naver.com/kfa"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "rpQLGBg5BSqWK22kTOnLK5d6xLk",
+      "id": "xQjkPhVgvRo",
+      "snippet": {
+        "publishedAt": "2022-12-02T23:00:07Z",
+        "channelId": "UCDNvRZRgvkBTUkQzFoT_8rA",
+        "title": "[ENG] 조찬 모임은 핑계고",
+        "description": "토요일 오전 8시, 동생들이랑 조찬 모임 가져봤습니다.\n이 시대 교양인으로서 세계 경제에 대해 논해보려고 불렀는데\n사실 다~~ 핑계고🐓 \n이런 얘기~ 저런 얘기~ 떠들어제끼고 싶어서 만났습니다.\n\n00:00 혼자 떠들어제낌\n01:25 조찬모임 정시 시작했습니다\n07:24 조남지대의 낭만이 있는 아침\n14:44 유재석의 현실 아침\n21:08 조찬모임 흉내\n26:44 조남지대 킬링라이브\n29:23 형도 얼굴로 여기까지 온 거 아니잖아요\n32:25 토크 서비스 10분 추가\n34:17 MZ토크하다 2차 노래방\n36:51 토크 서비스 또또 추가\nㅡㅡㅡ\n유선배 복지 콘텐츠 🐓핑계고🐓\n우리도 언제 올릴지 몰라요 ⚠불시 업로드⚠\n☁구독 & 좋아요 & 알림설정 필수☁\n\n👇’뜬뜬’ 소식 보러가기\nhttps://instagram.com/ddeun._.ddeun\n\n#뜬뜬 #핑계고 #유재석 #조세호 #남창희 #조찬모임",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xQjkPhVgvRo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xQjkPhVgvRo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xQjkPhVgvRo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xQjkPhVgvRo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xQjkPhVgvRo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "뜬뜬 DdeunDdeun",
+        "tags": ["뜬뜬", "유재석", "조남지대", "조세호", "남창희", "토크", "조찬모임"],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[ENG] 조찬 모임은 핑계고",
+          "description": "토요일 오전 8시, 동생들이랑 조찬 모임 가져봤습니다.\n이 시대 교양인으로서 세계 경제에 대해 논해보려고 불렀는데\n사실 다~~ 핑계고🐓 \n이런 얘기~ 저런 얘기~ 떠들어제끼고 싶어서 만났습니다.\n\n00:00 혼자 떠들어제낌\n01:25 조찬모임 정시 시작했습니다\n07:24 조남지대의 낭만이 있는 아침\n14:44 유재석의 현실 아침\n21:08 조찬모임 흉내\n26:44 조남지대 킬링라이브\n29:23 형도 얼굴로 여기까지 온 거 아니잖아요\n32:25 토크 서비스 10분 추가\n34:17 MZ토크하다 2차 노래방\n36:51 토크 서비스 또또 추가\nㅡㅡㅡ\n유선배 복지 콘텐츠 🐓핑계고🐓\n우리도 언제 올릴지 몰라요 ⚠불시 업로드⚠\n☁구독 & 좋아요 & 알림설정 필수☁\n\n👇’뜬뜬’ 소식 보러가기\nhttps://instagram.com/ddeun._.ddeun\n\n#뜬뜬 #핑계고 #유재석 #조세호 #남창희 #조찬모임"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Dzmznmyr8Vr32XhyBwqfXznGYGo",
+      "id": "tZolEtoQyuY",
+      "snippet": {
+        "publishedAt": "2022-12-04T10:00:22Z",
+        "channelId": "UCUj6rrhMTR9pipbAWBAMvUQ",
+        "title": "막걸리 수육 떡볶이",
+        "description": "▶관련 영상\n  •겨울철 간단한 김장: https://youtu.be/46Vzj17L3rI\n\n▶관련 재생목록\n  •👨‍🍳불만 피우면 쿡방: https://youtube.com/playlist?list=PLif_jr7pPZACEQ8CWYYcC2GDDqsJ2icOv\n\n▶생방송 원본\n  •2022년 11월 29일 방송분: https://youtu.be/xPLwCfxN4dw\n\n▶출연\n  •주호민(@joopearl), 김풍, 침착맨\n\n#침착맨 #주호민 #김풍 #쿡방",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tZolEtoQyuY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tZolEtoQyuY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tZolEtoQyuY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tZolEtoQyuY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tZolEtoQyuY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "침착맨",
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "막걸리 수육 떡볶이",
+          "description": "▶관련 영상\n  •겨울철 간단한 김장: https://youtu.be/46Vzj17L3rI\n\n▶관련 재생목록\n  •👨‍🍳불만 피우면 쿡방: https://youtube.com/playlist?list=PLif_jr7pPZACEQ8CWYYcC2GDDqsJ2icOv\n\n▶생방송 원본\n  •2022년 11월 29일 방송분: https://youtu.be/xPLwCfxN4dw\n\n▶출연\n  •주호민(@joopearl), 김풍, 침착맨\n\n#침착맨 #주호민 #김풍 #쿡방"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "COnk1bCQ1URASpQ9zcxR5T6sp-s",
+      "id": "MA0hgXsZ3bk",
+      "snippet": {
+        "publishedAt": "2022-12-04T09:25:25Z",
+        "channelId": "UCyCL5k8P1iUOc1EymhhMW1A",
+        "title": "100kg 돼지의 160km 강원도에서 서울까지 자전거타고 하루만에 오기ㅋㅋ과연...가능할까...?!?",
+        "description": "#더블비#웃긴영상#재밌는영상\n\n 솔직히 해병대는 하루만 그냥옴 ㅋ \n\n인스타그램    장명준 mang_jun_                                                        \n                         박민규  mingggkiiii\n\n광고,협찬 문의 mingyu3@naver.com\n\n\n*영상에서 사용한 브금*\n\nMusic provided by 브금대통령\nTrack : Ready To Nap - https://youtu.be/UZE2a9gTsDk\nTrack : 눈치게임 - https://youtu.be/zq8p0Rk6lRM\nTrack : 갑자기 멍때리기 - https://youtu.be/TdQYTw-jhw8\nMusic composed by 브금술사_BGMmagician\nTrack : Comic clavi - https://www.youtube.com/watch?v=BARAv...\nTrack : 아쭈꾸임 - https://youtu.be/RONJ2CQJNro",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MA0hgXsZ3bk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MA0hgXsZ3bk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MA0hgXsZ3bk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MA0hgXsZ3bk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "더블비",
+        "tags": ["더블비", "웃긴영상", "재밌는영상", "자전거", "강원도", "라이딩", "자전거여행"],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "100kg 돼지의 160km 강원도에서 서울까지 자전거타고 하루만에 오기ㅋㅋ과연...가능할까...?!?",
+          "description": "#더블비#웃긴영상#재밌는영상\n\n 솔직히 해병대는 하루만 그냥옴 ㅋ \n\n인스타그램    장명준 mang_jun_                                                        \n                         박민규  mingggkiiii\n\n광고,협찬 문의 mingyu3@naver.com\n\n\n*영상에서 사용한 브금*\n\nMusic provided by 브금대통령\nTrack : Ready To Nap - https://youtu.be/UZE2a9gTsDk\nTrack : 눈치게임 - https://youtu.be/zq8p0Rk6lRM\nTrack : 갑자기 멍때리기 - https://youtu.be/TdQYTw-jhw8\nMusic composed by 브금술사_BGMmagician\nTrack : Comic clavi - https://www.youtube.com/watch?v=BARAv...\nTrack : 아쭈꾸임 - https://youtu.be/RONJ2CQJNro"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "F4PpVn9VSYdPUJL6cz-HR39qGmU",
+      "id": "VwJo3WJO0hk",
+      "snippet": {
+        "publishedAt": "2022-12-03T10:06:53Z",
+        "channelId": "UCbFzvzDu17eDZ3RIeaLRswQ",
+        "title": "감스트 한국16강!!! 진짜 대박입니다",
+        "description": "[2022.12.03] 방송영상 입니다.\n\n#대한민국 #축구 #국가대표 #카타르 #카타르월드컵 \n#16강 #worldcup #월드컵 #포르투갈 #포르투칼\n#김승규 #조현우 #송범근 #김민재 #김영권 #권경원 #조유민\n#김문환 #윤종규 #김태환 #김진수 #홍철 #정우영 #손준호\n#백승호 #황인범 #이재성 #권창훈 #정우영  #이강인 #손흥민\n#황희찬 #나상호 #송민규 #황의조 #조규성 #벤투 #벤투호\n#ChoGueSung #호날두 #Ronaldo\n\n\n♥ GAMST YouTube channel subscribe please ♥\n\nGAMST YouTube https://goo.gl/i1A0oN\nGAMST Facebook http://facebook.com/gamst0108\nGAMST Instagram http://Instagram.com/gamst17172\nGAMST TV http://afreeca.com/devil0108\nGAMST TV watch live http://play.afreeca.com/devil0108\n\nCOPYRIGHTS ⓒ 2015 BY GAMST. ALL RIGHTS RESERVED.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VwJo3WJO0hk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VwJo3WJO0hk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VwJo3WJO0hk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VwJo3WJO0hk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VwJo3WJO0hk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "감스트GAMST",
+        "tags": ["아프리카티비", "아프리카tv", "afreecatv", "broadcast", "감스트", "비제이", "김인직", "인직", "방송", "bj", "감튜브", "콘텐츠", "컨텐츠", "비감", "contents", "gamst", "injik", "kiminjik", "gamtube", "bgam"],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "감스트 한국16강!!! 진짜 대박입니다",
+          "description": "[2022.12.03] 방송영상 입니다.\n\n#대한민국 #축구 #국가대표 #카타르 #카타르월드컵 \n#16강 #worldcup #월드컵 #포르투갈 #포르투칼\n#김승규 #조현우 #송범근 #김민재 #김영권 #권경원 #조유민\n#김문환 #윤종규 #김태환 #김진수 #홍철 #정우영 #손준호\n#백승호 #황인범 #이재성 #권창훈 #정우영  #이강인 #손흥민\n#황희찬 #나상호 #송민규 #황의조 #조규성 #벤투 #벤투호\n#ChoGueSung #호날두 #Ronaldo\n\n\n♥ GAMST YouTube channel subscribe please ♥\n\nGAMST YouTube https://goo.gl/i1A0oN\nGAMST Facebook http://facebook.com/gamst0108\nGAMST Instagram http://Instagram.com/gamst17172\nGAMST TV http://afreeca.com/devil0108\nGAMST TV watch live http://play.afreeca.com/devil0108\n\nCOPYRIGHTS ⓒ 2015 BY GAMST. ALL RIGHTS RESERVED."
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "_CJO8VTJcGy4lrK3sovNo-cBpuM",
+      "id": "0IPE_rvPVro",
+      "snippet": {
+        "publishedAt": "2022-12-03T01:00:00Z",
+        "channelId": "UCn64fSqF2l4rkkjtQUpku2A",
+        "title": "일회용 아이스팩을 욕실에 잘라 두면 모든 가정의 문제가 해결됩니다 Icepack",
+        "description": "#아이스팩 #욕실 \n아이스팩을 활용한 유용한 팁\n\n구독은 무료입니다.\n감사합니다.\n비지니스 문의 alstlr9202@gmail.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0IPE_rvPVro/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0IPE_rvPVro/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0IPE_rvPVro/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0IPE_rvPVro/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0IPE_rvPVro/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "집나간아들 Runaway Son",
+        "tags": ["아이스팩", "아이스팩활용법", "아이스팩재활용", "욕실", "변기", "꿀팁", "팁", "생활팁", "생활꿀팁", "유용한팁"],
+        "categoryId": "26",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "일회용 아이스팩을 욕실에 잘라 두면 모든 가정의 문제가 해결됩니다 Icepack",
+          "description": "#아이스팩 #욕실 \n아이스팩을 활용한 유용한 팁\n\n구독은 무료입니다.\n감사합니다.\n비지니스 문의 alstlr9202@gmail.com"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "1jzC8eY6xa1bkYzxpWrDePDktAA",
+      "id": "_tZzcovPDNM",
+      "snippet": {
+        "publishedAt": "2022-12-03T09:00:25Z",
+        "channelId": "UC3SyT4_WLHzN7JmHQwKQZww",
+        "title": "[아이유의 팔레트🎨] 여왕들의 귀환 \"KARA IS BACK\" (With 카라) Ep.16",
+        "description": "[IU's Palette] Return of the Queens \"KARA IS BACK\" (With KARA) Ep.16\n[아이유의 팔레트] 여왕들의 귀환 \"KARA IS BACK\" (With 카라) Ep.16\n\n#아이유 #팔레트 #카라",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_tZzcovPDNM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_tZzcovPDNM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_tZzcovPDNM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_tZzcovPDNM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_tZzcovPDNM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이지금 [IU Official]",
+        "tags": [
+          "IU",
+          "아이유",
+          "이담",
+          "EDAM",
+          "이지금",
+          "dlwlrma",
+          "아이유tv",
+          "아티비",
+          "아이유티비",
+          "아이유의팔레트",
+          "팔레트",
+          "분홍신",
+          "너랑나",
+          "집콕시그널",
+          "집콕",
+          "하루끝",
+          "에잇",
+          "삐삐",
+          "Palette",
+          "가을아침",
+          "금요일에만나요",
+          "비밀의화원",
+          "블루밍",
+          "내손을잡아",
+          "스물셋",
+          "너의의미",
+          "무릎",
+          "밤편지",
+          "시간의바깥",
+          "좋은날",
+          "러브포엠",
+          "Love Poem",
+          "Through The Nigh",
+          "Meaning of you",
+          "BBIBBI",
+          "Blueming",
+          "Jam jam",
+          "Red Queen",
+          "Friday",
+          "Autumn morning",
+          "unlucky",
+          "이지은",
+          "나의아저씨",
+          "호텔델루나",
+          "장만월",
+          "라일락",
+          "코인",
+          "봄바람봄",
+          "어푸",
+          "플루",
+          "셀러브리티",
+          "돌림노래",
+          "빈컵",
+          "에필로그"
+        ],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[아이유의 팔레트🎨] 여왕들의 귀환 \"KARA IS BACK\" (With 카라) Ep.16",
+          "description": "[IU's Palette] Return of the Queens \"KARA IS BACK\" (With KARA) Ep.16\n[아이유의 팔레트] 여왕들의 귀환 \"KARA IS BACK\" (With 카라) Ep.16\n\n#아이유 #팔레트 #카라"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "1IuMqyr4Yn2E3zQfK2vNvPDqsd4",
+      "id": "I0epWgm_bRY",
+      "snippet": {
+        "publishedAt": "2022-12-04T09:00:07Z",
+        "channelId": "UClzB2iZ5jPoTNz0S-QU6Wiw",
+        "title": "24시간동안 마라 먹기 VS 로제 먹기!! 요즘 더 인기 있는 건 누구?!",
+        "description": "※ 노랭이 PD : 악플 달지 마라~~\n※ 강호이 : 날 추워서 별로제~~\n※ 진렬이 : 으휴\n#파뿌리24 #마라탕 #로제 \n파뿌리 채널 구독하기 ☞ https://url.kr/IPn4hC\n상경한 세 남자의 유쾌한 매력에 빠져보세요!!\n\n파뿌리24 영상 몰아보기 ☞ https://url.kr/SDQwbZ \n복층라이프 몰아보기 ☞ https://url.kr/w3lLgh\n파뿌리 저가락 몰아보기 ☞ https://url.kr/5IUCuO\n슈퍼푸드보이 몰아보기 ☞ https://url.kr/JEGKBi\n랜덤챌린지 몰아보기 ☞ https://url.kr/iK3q9R\n퀴즈먹방 몰아보기 ☞ https://url.kr/QXLzIP\n뿌이로그 몰아보기  ☞ https://url.kr/M9DVLH\n1분 리뷰 몰아보기 ☞ https://url.kr/nufm3C\n\n[이메일] 콘텐츠요청, 팬 아트, 보내주고픈 말들 : popfree@sandboxnetwork.net\n[팬사서함] 서울시 용산구 서빙고로 17 센트럴파크타워, 30층 샌드박스\n받는 사람명 - 파뿌리",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I0epWgm_bRY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I0epWgm_bRY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I0epWgm_bRY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/I0epWgm_bRY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/I0epWgm_bRY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "파뿌리",
+        "tags": ["파뿌리", "예능", "게임", "GAME", "오락", "버라이어티", "variety", "웹예능", "플레이"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "24시간동안 마라 먹기 VS 로제 먹기!! 요즘 더 인기 있는 건 누구?!",
+          "description": "※ 노랭이 PD : 악플 달지 마라~~\n※ 강호이 : 날 추워서 별로제~~\n※ 진렬이 : 으휴\n#파뿌리24 #마라탕 #로제 \n파뿌리 채널 구독하기 ☞ https://url.kr/IPn4hC\n상경한 세 남자의 유쾌한 매력에 빠져보세요!!\n\n파뿌리24 영상 몰아보기 ☞ https://url.kr/SDQwbZ \n복층라이프 몰아보기 ☞ https://url.kr/w3lLgh\n파뿌리 저가락 몰아보기 ☞ https://url.kr/5IUCuO\n슈퍼푸드보이 몰아보기 ☞ https://url.kr/JEGKBi\n랜덤챌린지 몰아보기 ☞ https://url.kr/iK3q9R\n퀴즈먹방 몰아보기 ☞ https://url.kr/QXLzIP\n뿌이로그 몰아보기  ☞ https://url.kr/M9DVLH\n1분 리뷰 몰아보기 ☞ https://url.kr/nufm3C\n\n[이메일] 콘텐츠요청, 팬 아트, 보내주고픈 말들 : popfree@sandboxnetwork.net\n[팬사서함] 서울시 용산구 서빙고로 17 센트럴파크타워, 30층 샌드박스\n받는 사람명 - 파뿌리"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "5s1Xjw9JBX9Yw2-b6zBUPcAwRKY",
+      "id": "GuM_OA26D28",
+      "snippet": {
+        "publishedAt": "2022-12-03T13:22:56Z",
+        "channelId": "UCOHM2N1YQdb-cHWxJxwBMLQ",
+        "title": "[ENG][아형✪하이라이트] (5명 완전체 실화?) 그때 그 시절 '카라'가 돌아왔다↗ 신곡 비하인드 & 비방용 토크 대방출🔥 | 아는 형님 | JTBC 221203 방송",
+        "description": "[아형✪하이라이트] (5명 완전체 실화?) 그때 그 시절 '카라'가 돌아왔다↗ 신곡 비하인드 & 비방용 토크 대방출🔥\n#아는형님 #하이라이트 #카라\n\n📌 공홈에서 리플레이 : https://tv.jtbc.co.kr/jtbcbros\n📌 #티빙에서스트리밍 : https://tving.onelink.me/xHqC/1vihef6r\n\n〈아는 형님〉은 매주 토요일 저녁 8시 50분 본.방.사.수!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GuM_OA26D28/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GuM_OA26D28/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GuM_OA26D28/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/GuM_OA26D28/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/GuM_OA26D28/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "아는형님 Knowingbros",
+        "tags": ["아는 형님", "형님", "형님 학교", "박규리", "한승연", "니콜", "강지영", "허영지", "카라", "이수근", "서장훈", "김희철", "민경훈", "김영철", "이상민", "신동", "이진호", "아는형님카라", "카라예능", "카라컴백", "카라신곡", "카라WHENIMOVE", "카라문명특급", "카라문특", "카라킬링보이스", "카라레전드", "카라짤", "카라레전드짤", "강지영일본", "강지영일본활동", "강지영일본어", "PrettyGirl", "카라PrettyGirl", "카라안무", "박규리여신", "규리여신", "지동원"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[ENG][아형✪하이라이트] (5명 완전체 실화?) 그때 그 시절 '카라'가 돌아왔다↗ 신곡 비하인드 & 비방용 토크 대방출🔥 | 아는 형님 | JTBC 221203 방송",
+          "description": "[아형✪하이라이트] (5명 완전체 실화?) 그때 그 시절 '카라'가 돌아왔다↗ 신곡 비하인드 & 비방용 토크 대방출🔥\n#아는형님 #하이라이트 #카라\n\n📌 공홈에서 리플레이 : https://tv.jtbc.co.kr/jtbcbros\n📌 #티빙에서스트리밍 : https://tving.onelink.me/xHqC/1vihef6r\n\n〈아는 형님〉은 매주 토요일 저녁 8시 50분 본.방.사.수!"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "BfSxTBEI0zmSG68krorWHybCEls",
+      "id": "is-rjsfoYtY",
+      "snippet": {
+        "publishedAt": "2022-12-03T07:56:15Z",
+        "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+        "title": "KARA(카라) - WHEN I MOVE | Show! MusicCore | MBC221203방송",
+        "description": "KARA(카라) - WHEN I MOVE | Show! MusicCore | MBC221203방송\n\n#KARA #WHENIMOVE #MBCKPOP\n\niMBC\nhttps://program.iMBC.com/musiccore\n\nWAVVE\nhttps://www.wavve.com/player/vod?programid=M_1000788100000100000&page=",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/is-rjsfoYtY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/is-rjsfoYtY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/is-rjsfoYtY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/is-rjsfoYtY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/is-rjsfoYtY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MBCkpop",
+        "tags": ["mbc", "KPOP", "dance", "song", "korea", "korean", "show", "music core", "live", "stage", "girl", "boy", "idol", "한류", "korean wave", "ingigayo", "show champion", "mnet", "엠넷", "music bank", "쇼 음악중심", "쇼음악중심", "쇼음중", "음중", "예능 연구소 카라", "카라", "KARA", "웬 아이 무브", "WHEN I MOVE", "WHEN I MOVE Fancam", "KARA Fancam", "카라직캠", "웬 아이 무브 직캠", "카라 웬 아이 무브", "WHEN I MOVE KARA", "카라 KARA", "규리", "한승연"],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "KARA(카라) - WHEN I MOVE | Show! MusicCore | MBC221203방송",
+          "description": "KARA(카라) - WHEN I MOVE | Show! MusicCore | MBC221203방송\n\n#KARA #WHENIMOVE #MBCKPOP\n\niMBC\nhttps://program.iMBC.com/musiccore\n\nWAVVE\nhttps://www.wavve.com/player/vod?programid=M_1000788100000100000&page="
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "ppeLPe0YhW0ySO0oFm-wh3gPcPI",
+      "id": "8OJ85Ue6RaU",
+      "snippet": {
+        "publishedAt": "2022-12-02T09:00:06Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "1차 예선",
+        "description": "#스케치코미디 #숏박스 #쇼미더머니",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8OJ85Ue6RaU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8OJ85Ue6RaU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8OJ85Ue6RaU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8OJ85Ue6RaU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8OJ85Ue6RaU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "숏박스",
+        "tags": ["숏박스", "스케치코미디", "개그"],
+        "categoryId": "23",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "1차 예선",
+          "description": "#스케치코미디 #숏박스 #쇼미더머니"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "31VYzifM49czZuqeGCMJ3B4lozM",
+      "id": "_Tw_69yq1ZA",
+      "snippet": {
+        "publishedAt": "2022-12-02T17:07:09Z",
+        "channelId": "UCepUWUpH45hRTi-QePdq1Bg",
+        "title": "[#SMTM11/풀버전] ♬ 마이웨이(MY WAY) (Feat. 저스디스) - 던말릭, 허성현, 칸, 맥대디, 로스 @팀 음원미션　#쇼미더머니11 EP.6",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f\n\n[#SMTM11/풀버전] ♬ 마이웨이(MY WAY) (Feat. 저스디스) - 던말릭, 허성현, 칸, 맥대디, 로스 @팀 음원미션\n\nWHO'S THE NEW ONE?\n＜쇼미더머니11＞ 매주 금요알 밤 11시 본방송\n\n🎤〈SMTM11〉 Homepage : www.smtm11.com\n🎤〈SMTM11〉 Instgram : https://www.instagram.com/mnet_hiphop/\n🎤〈SMTM11〉 Facebook :  https://www.facebook.com/mnethiphop\n🎤〈SMTM11〉 Twitter : https://twitter.com/mnet_hiphop\n\n#티빙에서스트리밍",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_Tw_69yq1ZA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_Tw_69yq1ZA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_Tw_69yq1ZA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_Tw_69yq1ZA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_Tw_69yq1ZA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Mnet TV",
+        "tags": ["Hiphop", "Mnet", "SMTM", "SMTM11", "ShowMeTheMoney", "ShowMeTheMoney11", "rapper", "래퍼", "쇼미", "쇼미11", "쇼미더머니", "쇼미더머니11", "엠넷", "티빙에서스트리밍", "힙합"],
+        "categoryId": "24",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "[#SMTM11/풀버전] ♬ 마이웨이(MY WAY) (Feat. 저스디스) - 던말릭, 허성현, 칸, 맥대디, 로스 @팀 음원미션　#쇼미더머니11 EP.6",
+          "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f\n\n[#SMTM11/풀버전] ♬ 마이웨이(MY WAY) (Feat. 저스디스) - 던말릭, 허성현, 칸, 맥대디, 로스 @팀 음원미션\n\nWHO'S THE NEW ONE?\n＜쇼미더머니11＞ 매주 금요알 밤 11시 본방송\n\n🎤〈SMTM11〉 Homepage : www.smtm11.com\n🎤〈SMTM11〉 Instgram : https://www.instagram.com/mnet_hiphop/\n🎤〈SMTM11〉 Facebook :  https://www.facebook.com/mnethiphop\n🎤〈SMTM11〉 Twitter : https://twitter.com/mnet_hiphop\n\n#티빙에서스트리밍"
+        },
+        "defaultAudioLanguage": "ko"
+      }
+    }
+  ],
+  "nextPageToken": "CBkQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 25
+  }
+}

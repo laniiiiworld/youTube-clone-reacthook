@@ -12,7 +12,7 @@ const VideoItem = ({ displayType, video }) => {
   };
 
   return (
-    <li className={`${styles.videoItem} ${displayType === 'list' ? styles.list : styles.grid}`} onClick={onVideoClick}>
+    <li data-testid='video-list' className={`${styles.videoItem} ${displayType === 'list' ? styles.list : styles.grid}`} onClick={onVideoClick}>
       <div className={styles.thumbnail}>
         <img className={styles.thumbnailImg} src={thumbnails.medium.url} alt={title}></img>
       </div>

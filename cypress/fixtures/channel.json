@@ -1,0 +1,49 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "f7LzChmvUsv2VEVMsTyYS2jxG6Q",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "fNOQQFmO92h476T0-PPVYME_PlY",
+      "id": "UC3SyT4_WLHzN7JmHQwKQZww",
+      "snippet": {
+        "title": "Lani world",
+        "description": "아이유(IU) Official YouTube Channel",
+        "customUrl": "@dlwlrma",
+        "publishedAt": "2017-02-13T06:00:29Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu-UWvwHCKwBxSfbMOjy5D2z03jrZz4hnOWyksk1gw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu-UWvwHCKwBxSfbMOjy5D2z03jrZz4hnOWyksk1gw=s240-c-k-c0x00ffffff-no-rj-mo",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu-UWvwHCKwBxSfbMOjy5D2z03jrZz4hnOWyksk1gw=s800-c-k-c0x00ffffff-no-rj-mo",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "이지금 [IU Official]",
+          "description": "아이유(IU) Official YouTube Channel"
+        },
+        "country": "KR"
+      },
+      "statistics": {
+        "viewCount": "1828419745",
+        "subscriberCount": "8240000",
+        "hiddenSubscriberCount": false,
+        "videoCount": "159"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1107 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "VWqPgDzXFmvUJzQAUICDyfpYGkc",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 183,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AjAG9bzTLvnGbL4kwdVnTlApXxc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SQT_jiDzbpc"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-30T13:17:49Z",
+        "channelId": "UCiP2emCKINsxww1nG7-krlg",
+        "title": "related video title",
+        "description": "📌 본 컨텐츠에서 발생하는 저작권 수익은 모두 저작권자에게 창출됩니다.\n📌 컨텐츠에 삽입된 중간광고는 제가 아닌 유튜브 측에 의하여 자동 삽입됩니다.\n\n광고 문의 📩 dudtjdu@naver.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SQT_jiDzbpc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SQT_jiDzbpc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SQT_jiDzbpc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SQT_jiDzbpc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SQT_jiDzbpc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "related channel title",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-30T13:17:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "X2U5bA-AH-UybyJX5q_mGqvUJas",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mxsVaCFgXRc"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-29T21:40:23Z",
+        "channelId": "UCMYhq9OyGI5UEz_NTAoHY7A",
+        "title": "작정하고 온 진보와 보수의 두 정치 거물 “더는 못 참겠다!”",
+        "description": "#정영진 #최욱 #매불쇼 \n\n수요난장판: 박지원 X 이재오 X 박시영 X 최진봉\n\n--------------------------------------------------------------\n광고 문의 : ad@podbbang.com / 02-6903-9392\n출연, 사연 등 기타 문의 : mbshow@podbbang.com\n또는 인스타그램 @maebulshow 메시지 주세요 :)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mxsVaCFgXRc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mxsVaCFgXRc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mxsVaCFgXRc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/mxsVaCFgXRc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/mxsVaCFgXRc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "[팟빵] 매불쇼",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-29T21:40:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ibl-cEnfoCJ2rqEw9J9xM3qDBPs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H11KmmvHxRE"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-31T05:47:51Z",
+        "channelId": "UCdjjTRD-Dbjapg5Na_DiJ6g",
+        "title": "아이유가 칸에서 보여준 화려한 치장으로 한국의 위상이 올라간 이유",
+        "description": "#아이유칸영화제 #아이유드레스 #아이유목걸이\n스타들에게 숨겨진 사실들을 집중분석하는 '꽃바침'입니다.\n '구독' , '좋아요'로 꽃을 선사해주세요. \n오늘도 꽃같은 하루 되세요^^",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H11KmmvHxRE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H11KmmvHxRE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H11KmmvHxRE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/H11KmmvHxRE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/H11KmmvHxRE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "불꽃바침",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-31T05:47:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9wObq7N6TpV4CM6Eh-OKJojZgpI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xq6meawXxbg"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-02T02:52:36Z",
+        "channelId": "UCsRIHt5FkbGc6cQtCxt-ufA",
+        "title": "[#갓구운클립] 잠깐만 언니🔥 김민경의 허리 남는 치마를 보고 분노한 풍자 ㅋㅋㅋ🤣(feat. 김민경 라지설) | #한도초과",
+        "description": "#갓구운클립 #한도초과 #tvN\n\nwe’re :DIGGLE family",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xq6meawXxbg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xq6meawXxbg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xq6meawXxbg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xq6meawXxbg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xq6meawXxbg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "tvN D ENT",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-02T02:52:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GLV1uOPwmQKptSWZtLast99G3AA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8o3nyQcWXpE"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-30T08:06:44Z",
+        "channelId": "UCpbu18sbRQlFSo1PtixzktQ",
+        "title": "妹がお姉ちゃんになって子供とケーキ作りをしようの会‼︎【カジサック】",
+        "description": "【チャンネル登録球技大会】に、カジサックさん率いる「サル軍」として参加してます！！！\n12月10日までのチャンネル登録者数の増加が得点になるので、みんな本当にチャンネル登録お願いします！\nサル軍のメンバーのチャンネルも登録お願いします！！\nhttps://www.youtube.com/@kajisac\nhttps://www.youtube.com/@CrazyMagnet\nhttps://www.youtube.com/@ahoyoun\n\n本当にこの動画俺の緊張がえぐいすぎて恥ずかしいです笑\nけどカジサックさんとの生配信でやっと慣れてちゃんと話せるようになったんで是非カジサックさんの方の動画も見てほしいです！\n\nhttps://youtu.be/HBTEYc6Ugjc\n\n改めまして、カジサックさんありがとうございました！！\n最高に楽しい時間でした！！\n芸人さんのトーク力はレベルが違くて何か悔しいくらいです笑\nまたカジサックさんと話たいなぁーー！\n\nお子さんも本当に可愛くて、本当に礼儀正しくて、素晴らしい家族だなと、直接あってより思いました！\n\n後少しですが、チャンネル登録者数球技大会よろしくお願い致します！！\n\n今日も動画を見てくれてありがと！！\n\n■中町兄妹の公式LINEができたので、みんな友だち追加してください！\n撮影後のオフ動画とかも載せちゃいます！\nhttps://lin.ee/7xwd0hm\n\n\n■スキンケアブランド『ASUNE』\n・公式WEBサイト：https://asune.jp/\n・公式Instagram：https://www.instagram.com/asune_official/\n・公式LINE：https://lin.ee/4fltcYI\n\n■アパレルブランド『JUST A NOON』\n・公式WEBサイト：https://justanoon.jp\n・公式Instagram：https://instagram.com/justanoon_official\n・公式LINE：https://line.me/R/ti/p/%40117ymmjr\n・公式Twitter：https://twitter.com/justanoon_\n\n■中町兄妹LINEスタンプ第一弾\nhttps://line.me/S/sticker/17023106\n\nそうです、一般人の代表中町兄妹です。\nチャンネル登録/高評価/コメントお願いします！！！\n中町JP（兄）と中町綾（妹）のSNSもフォローお願いします♪\n\n⚫︎中町純平のマジ酔ってるわ‼︎\nhttps://www.youtube.com/channel/UCp7GNebwQ2z8coZ4wV5_Eiw\n⚫︎中町綾\nhttps://www.youtube.com/c/ayasabu\n\n⚫︎Instagram\n∟兄 http://Instagram.com/demichenakamachi \n∟妹 https://www.instagram.com/ayanakamachi/?hl=ja \n\n⚫︎Twitter\n∟兄 https://mobile.twitter.com/demichenakamach\n∟妹 https://twitter.com/aya110n_n \n\n⚫︎TikTok\n∟兄妹 https://vt.tiktok.com/ADxSjG/\n∟兄 https://vt.tiktok.com/ADXndw/ \n∟妹  https://vt.tiktok.com/ZSun5PeD/\n\n⚫︎中町JPの会社\n∟株式会社トキメキクリエイト http://tokimekicreate.jp/ \n\nお問い合わせ 【info@tokimekicreate.jp】",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8o3nyQcWXpE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8o3nyQcWXpE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8o3nyQcWXpE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8o3nyQcWXpE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8o3nyQcWXpE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "中町兄妹",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-30T08:06:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-51UgPJH8lP2EDi38bMwiPAndHg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NmChXttjrCk"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-11T07:19:11Z",
+        "channelId": "UCA7TUSbnsi0CiWSmfuGShww",
+        "title": "《몰아보기》의문의 사고로 기억을 잃어버린 재벌 3세의 웃픈 이야기ㅋㅋ큐 [쇼핑왕 루이 처음부터 끝까지 몰아보기]",
+        "description": "#쇼핑왕루이 #몰아보기 #ott \n\n오늘 소개 해드린 영상은 \"쇼핑왕 루이\" 입니다\n구독과 좋아요는 영상 제작에 정말 큰 도움이 됩니다 \n\n비즈니스 문의 : pswdid@gmail.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NmChXttjrCk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NmChXttjrCk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NmChXttjrCk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NmChXttjrCk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NmChXttjrCk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "오티티 : OTT",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-11T07:19:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5uuutM8wkZMP1gyRWRzzOON94pE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kUOIJ2OFxsY"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-30T08:42:12Z",
+        "channelId": "UC3SyT4_WLHzN7JmHQwKQZww",
+        "title": "[아이유의 팔레트] 세븐틴이에유는 일촌이에유 (With 세븐틴) Ep.12",
+        "description": "[IU's Palette] SEVENTEENIU are friends now (With SEVENTEEN) Ep.12\n[아이유의 팔레트] 세븐틴이에유는 일촌이에유 (With 세븐틴) Ep.12\n\n#아이유 #세븐틴 #팔레트",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kUOIJ2OFxsY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kUOIJ2OFxsY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kUOIJ2OFxsY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kUOIJ2OFxsY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kUOIJ2OFxsY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이지금 [IU Official]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-30T08:42:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mvEBeB79LUQ7wY6FGtEWaAlbUwM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wfHF443v6Mw"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-16T05:11:30Z",
+        "channelId": "UCwNVDlUgdBlmVWRPy4Nk0Dw",
+        "title": "[#놀라운토요일] 💥자칭 타칭 케이팝 고인물들 주목💥 이 중에 가사 맞추기 몇 곡 가능?? 분명 다 아는 노래인데..? 모르겠습니다... | #샾잉",
+        "description": "#놀라운토요일\n\n00:00 시작\n00:08 샤이니 사.계.후\n17:03 티아라 완전 미쳤네\n29:26 2PM Tik Tok\n47:29 원더걸스 G.N.O\n1:05:26 인피니트 내꺼하자\n1:21:39 소녀시대 All Night\n1:38:07 엑소 중독 (Overdose)\n\n요즘 뜨는 핫클립, 지금 생성 중! #샾잉\n▶ 샾잉 최신 콘텐츠 보러가기 : https://www.youtube.com/c/샾잉ing\n\n▶ 샾잉 인스타그램 바로가기 : https://www.instagram.com/sharp_ing/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wfHF443v6Mw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wfHF443v6Mw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wfHF443v6Mw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wfHF443v6Mw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wfHF443v6Mw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "샾잉 #ing",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-16T05:11:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "v_N7A0SG2vtbjf2bc5KkVPzdHIA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "D3DrTcAoV08"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-03T13:33:26Z",
+        "channelId": "UCF3UEVPt5zZTlBVJwDG317g",
+        "title": "[아는형님] 입담 폭발하는 규리여신을 필두로 아형 털고 가는 카라(KARA) 토크 모음｜핫클립｜JTBC 221203 방송 외",
+        "description": "규리여신만 웃긴 줄 알았는데…\n웬걸 전 멤버가 다 너무 웃겨요;;\n\n15주년 치 술술 풀어내는 카라 레전드 썰 모음\n\n\n#아는형님 #핫클립 #카라 #KARA\n \n[JTBC봐야지] 구독하기☞ http://asq.kr/VgFZ3\n\n------------------------------------------------------\n* 영상 속 프로그램은?\n\n【아는 형님｜Knowing Brothers】\nhttps://tv.jtbc.co.kr/jtbcbros\n------------------------------------------------------",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D3DrTcAoV08/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D3DrTcAoV08/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D3DrTcAoV08/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/D3DrTcAoV08/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/D3DrTcAoV08/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "JTBC Voyage",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-03T13:33:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jss--mstmvl2AhfK1KKWHjGflBY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8UKhJk40WKY"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-25T12:59:04Z",
+        "channelId": "UC_cCY55YMOefUibOAH_Wxpw",
+        "title": "목소리에도 인상이 있다 김창옥 교수 강의",
+        "description": "목소리에도 인상이 있다 김창옥 교수 강의\n#목소리\n#인상\n#김창옥교수\n#강의\n▼유튜브 구독하기▼\nhttps://www.youtube.com/channel/UC_cCY55YMOefUibOAH_Wxpw?sub_confirmation=1\n좋아요♥\n\ninstagram \nhttps://www.instagram.com/jackpottv1/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8UKhJk40WKY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8UKhJk40WKY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8UKhJk40WKY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8UKhJk40WKY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "잭팟TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-02-25T12:59:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Oz0Sa9qEW_aq_uRHf0xNsojEBzc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ls3yEndaD8A"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-20T02:01:52Z",
+        "channelId": "UCYHwV0nTtnRos2W6e7prUrQ",
+        "title": "하루 종일 듣기 좋은 노래 🎶 일할때 듣기좋은 발라드 추천 광고없는 노래모음🎶  김범수 /임창정 /박효신/성시경/ 백지영/ 더원/태연/박명수/에일리/찬열, 펀치/다비치/로꼬, 펀치",
+        "description": "하루 종일 듣기 좋은 노래 🎶 일할때 듣기좋은 발라드 추천 광고없는 노래모음🎶  김범수 /임창정 /박효신/성시경/ 백지영/ 더원/태연/박명수/에일리/찬열, 펀치/다비치/로꼬, 펀치\n\nhttps://youtu.be/ls3yEndaD8A\n=========================\n#하루종일듣기좋은노래#발라드명곡#2000년대발라드#1990년대발라드#Koreanballadsongs\n\n[00:00:00] - 01.다비치 - This Love(이 사랑)\n[00:03:44] - 02.구르미 그린 달빛 - 거미\n[00:07:43] - 03.찬열, 펀치  - Stay With Me\n[00:10:51] - 04.에일리 (Ailee) - 첫눈처럼 너에게 가겠다\n[00:14:40] - 05.다비치 - 내 옆에 그대인 걸\n[00:18:26] - 06.다비치&티아라 - 우리 사랑했잖아\n[00:21:57] - 07.로꼬, 펀치 - Say Yes MV\n[00:25:41] - 08.태연 (TAEYEON) - All With You\n[00:29:37] - 09.효린  - 미치게 만들어\n[00:33:56] - 10.어쿠스틱콜라보 - 너무 보고싶어\n[00:38:01] - 11.And One (그리고 하나) - TaeYeon (태연)\n[00:42:13] - 12.Taeyeon (태연) - 그대라는 시\n[00:45:41] - 13.허각 - 바보야\n[00:50:03] - 14.나얼 - 바람기억\n[00:55:04] - 15.지아 (ZIA) - Only One\n[00:59:15] - 16.Crush (크러쉬) - Beautiful\n[01:02:51] - 17.New Empire - A Little Braver\n[01:06:12] - 18.윤미래 - 그대라는 세상\n[01:09:48] - 19.첸-펀치 - Everytime\n[01:12:54] - 20.Huh Gak 허각 - Hello\n[01:17:05] - 21.허각 - 흔한 이별\n[01:22:24] - 22.거미 - You Are My Everything\n[01:26:25] - 23.Brown Eyes - 벌써 일년 (2001年)\n\n___________________________________\nTAGS:\n\n1990~2000년대 발라드 추천,가을에 듣기통은 발라드 모음,하루 종일 듣고 싶은 좋은노래 좋은음악 TOP 50곡,2000년대 국내 발라드 대표곡 100,90~2000년대 발라드 명곡 노래모음,직장에서 듣기 쉬운 1990-2000 년 최고의 발라드 곡 모음,감미로운 감성이 느껴지는 2000년대 발라드 모음,90년대 발라드 히트곡 콜렉션,90년대 발라드 모음으로 그때 그 시절 추억 속으로,90~2000년대 발라드,국내가요 발라드 모음 100곡 연속듣기,2000년대 발라드 명곡 모음,발라드 명곡 모음 광고없음 노래모음 2021,불후의 명곡,7080 발라드 애창곡 베스트,박효신 - 눈의 꽃,신용재,미 - 그 남자 그 여자,가슴아파도,1990~2000년 발라드모음,듣기만 해도 설레는,1990,2000년 발라드모음,2000,우리가 사랑했던,추억노래,발라드추천,남자 발라드,여자발라드,추천 발라드\n\n🔔 If you have any problem with copyright issues, please CONTACT US DIRECTLY before doing anything, or question please write to me in email\n🔔 Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video if you enjoy it! Have a nice day!\n\n\n구독,  좋아요는 큰 힘이 된답니다~^^\n#노래모음,\n#좋은노래모음,\n#발라드,\n듣기좋은 노래,\n명곡 듣기,\n에메랄드 캐슬,\n추천노래 모음,\n2018년 노래,\n화장을 고치고,\n락발라드 모음,\n좋은 발라드 노래모음,\n듣기 좋은 음악,노래, 발라드 모음 2020,\n발라드 모음 2019, 음악,\n노래 모음,\n가사,\nkpop,\n좋은 노래,\n좋은 발라드,\n최고의 오래된 노래, 최고의 노래,\n8090 좋은 발라드,\n카페, 뮤직, kpop,\n좋은 발라드 노래,\n좋은 발라드 컬렉션,\n듣기 좋은 노래,\n#노래모음,\n드라마,ost,\n8090,\n오래된 노래,\n카페 뮤직,\n민감한 발라드,\n발라드 송,\n좋은 음악,\n봄 노래,\n슬픈 노래,\n가을 노래,\n겨울 노래,\n여름 노래,\n영화 ost,\n좋은 아침,\n겨울 아침,\n나이트 송,\n노래 모음집,\nk-pop,\n가수,\n가을,\n명곡,\n여름,\n7048,\n오디오,\n팝,\n클래식,\n인상,\n드라마,\nost,\n노래 연속 듣기,\n듣기좋은 노래 모음,\n잔잔한 노래 모음,\n음악듣기,\n가사첨부,\n잔잔한 노래,\n노래 연속재생,\n노래 추천,\n추천곡 모음,\n노래모음 가사,\n감성적인 노래,\n20곡 연속듣기,\n카페에서 나오는 노래,\n발라드 명곡,\n좋은노래,\n#노래모음,\n듣기,\n가사포함,\nbest20,\n추천곡,\n노래듣기,\nbset10,\n선곡,\nstreaming,\n탑텐,\n20곡,\nsing,\n발라드 명곡 모음,\n좋은발라드,\n인기가요,\n좋은음악,\ntop20,\ntop100,\nmusic,\n노래방 노래,\n30곡 연속듣기,\n인기노래 모음,\n발라드 노래 모음,\n발라드모음,\n신나는 노래,\n듣기좋은 발라드,\n발라드 추천,\n잔잔하게 듣기 좋은 노래,\n나들이 노래,\n발라드 곡,\n드라마ost,\n발라드 곡 모음,\n발라드 곡 음악,\n겨울노래,\n발라드 노래,\n가요,\n신나는노래,\n콘서트,\n좋은 노래모음,\n카페에서 잔잔하게 듣기 좋은 노래,\n카페에서 듣기 좋은 노래,\n발라드 노래 연속듣기,\ni miss you,\n봄에 듣기좋은 노래 모음,\n드라이브 할때 좋은 노래,\n봄에 듣기 좋은 노래,\n영화ost,\n모음,\n감성 발라드,\n봄노래,\n여름노래,\n좋은노래모음,\n게임 할 때 듣기 좋은 노래,\nbest songs korean,\n좋은 발라드모음 2018,\n좋은 노래 best 40곡,\n언제 들어도 좋은 노래 best 40곡 모음,\n비오는 날 듣기 좋은 노래,\n아침 에 듣기 좋은 노래,\n잠잘 때 듣기 좋은 노래,\n여름 에 듣기 좋은 노래,\n카페 에서 듣기 좋은 노래,\n겨울 에 듣기 좋은 노래,\n좋은 발라드모음,\n조용한 노래,\n한 번쯤은,\n가을노래,\n바라드,\n듣기좋은발라드,\n최신가요,\n임창정,\nkorean drama,\n번쯤은 들어봤을,\nbest 40곡,\n슬픈 발라드,\n노래,\n감성,\n그리움,\n이문세,\n김동욱,\n산울림,\n울랄라세션,\n멜론,\n멜론차트,\n잔잔한,\n신사는,\n슬픈노래,\n옛사랑,\n왁스,\n밤노래,\n남가수,\n나는가수,\n언제,\n연속재생3,\n여가수,\n발라드 명곡 2018,\n들어봤을,\n#발라드노래모음,\n7080,\n발라드 노래방,\n케이팝,\n슬픈 발라드 노래 모음,\n봄에 듣기좋은 음악,\n봄에 듣기좋은 발라드,\n자주 듣고싶은 발라드,\n듣기좋은 발라드 노래 모음,\n듣기좋은 발라드 노래,\n듣기좋은 발라드 명곡,\n자주 듣는 감성 발라드,\n2018년 5월 3주차,\n감성 발라드 모음,\n감성 발라드 추천,\n발라드 노래 듣기,\n나만 알고 싶은 노래,\n발라드 노래 추천,\n봄에 카페에서 듣기 좋은 노래,\n봄에 어울리는 노래,\n겨울에 듣기좋은 노래,\n겨울에 듣기좋은 발라드,\n추울때 듣는 노래,\n야상곡 - 김윤아,\n봄에 들으면 좋은 노래,\nuuu - 정인,\n이별을 노래한 발라드,\n꺼내본다 - 김나영,\n체념 - 빅마마,\n이별이 오지 못하게 - 페이지,\n한사람을 위한 마음 - 럼블피쉬,\n아름다운 날들 - 장혜진,\na good collection of korean songs,\n하루 종일 들어도 좋은 노래,\n하루 종일 들어도 좋은 노래 100곡모음 연속재생,\n행복한 나를 - 에코,\n원하고 원망하죠 - 애즈원,\n다시 사랑할 수 있을까 - 박정은,\n하루 종일 비가 내렸어 - 디아,\n그댄 행복에 살텐데 - 리즈,\n라라라 - 이수영,\n혼자가 아닌 나 - 서영은,\nheaven - 에일리,\n슬픈 발라드모음 2018,\n잊지말아요 - 백지영,\n인연 - 이선희,\n오늘은 가지마 - 벤,\n늦은후회 - 보보,\n거북이 - 다비치,\n그리워해요 - 2ne1,\n눈꽃 - 거미,\n애인있어요 - 이은미,\n사랑 그게 뭔데 - 양파,\n사랑의 인사 - 씨야,\n마음이 다쳐서 - 나비,\n해바라기 - 가비앤제이,\n슬픈 노래 모음,\n자기야 여보야 사랑아 - 린,\n듣기 좋은 감성 발라드,\n추울때 듣기좋은 노래,\n감성발라드,\n마야,\n여자가수,\n먼데이키즈,\n남자가수,\n김나박이,\n고음,\n야다,\n얀,\n뮤직,\n애타는마음,\n최재훈,\n김건모,\n라이브,\n이적,\n더 크로스,\n겨울 발라드,\n자주듣는 발라드,\n발라드 #노래모음,\n#좋은노래모음,\n#발라드,\n듣기좋은 노래,\n명곡 듣기,\n에메랄드 캐슬,\n추천노래 모음,\n2018년 노래,\n화장을 고치고,\n락발라드 모음,\n좋은 발라드 노래모음,\n듣기 좋은 음악,노래, 발라드 모음 2020,\n발라드 모음 2019, 음악,\n노래 모음,\n가사,\nkpop,\n좋은 노래,\n좋은 발라드,\n최고의 오래된 노래, 최고의 노래,\n8090 좋은 발라드,\n카페 뮤직 kpop,\n좋은 발라드 노래,\n좋은 발라드 컬렉션,\n듣기 좋은 노래,\n#노래모음,\n드라마, ost,\n8090,오래된 노래,카페 뮤직,민감한 발라드,\n발라드 송,좋은 음악,봄 노래,\n슬픈 노래,가을 노래,겨울 노래,여름 노래,",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ls3yEndaD8A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ls3yEndaD8A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ls3yEndaD8A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ls3yEndaD8A/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ls3yEndaD8A/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "노래 모음 Korean Ballad Songs",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-20T02:01:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FJDhf2-hoYcwCbgjW_z5FjPe9nI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fX5vvjUNIP8"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-20T03:08:34Z",
+        "channelId": "UCn9mJ4htO64-1osMWYu9k5Q",
+        "title": "이름이 지루야??ㅋㅋㅋㅣ홍석천과 함께하는 미남 축구 선수 월드컵",
+        "description": "멤버십 가입하기 : https://www.youtube.com/channel/UCn9mJ4htO64-1osMWYu9k5Q/join\n투네이션 후원하기 : https://toon.at/donate/leestartv\n\n숏스타TV : https://bit.ly/shortstartv\n히든K : http://hidden-k.com/\n히든K 페이스북 : https://www.facebook.com/hiddenfootballK\n히팟 : http://hipod.co.kr/\n이스타tvM : https://www.youtube.com/c/이스타tvM\n아프리카 : http://afreecatv.com/e9dongsung\n이스타몰 : http://leestarmall.com\n광고문의 : reindeer@leestartv.com\n\n#홍석천 #카타르 #미남월드컵",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fX5vvjUNIP8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fX5vvjUNIP8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fX5vvjUNIP8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/fX5vvjUNIP8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/fX5vvjUNIP8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이스타TVxKBS",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-20T03:08:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8IQFe92z1HtCNhVtqPAKW0T5Krc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h4oDqhQ91tc"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-02T09:58:01Z",
+        "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+        "title": "[#2022MAMA] KARA (카라) | All Moments",
+        "description": "[#2022MAMA] KARA (카라) | All Moments\n\nWorld’s No.1 K-POP Awards\n2022 MAMA AWARDS\n\n#MAMAAWARDS #2022MAMAAWARDS #KARA \n\n▶ Mnet 유튜브 구독하기: http://www.youtube.com/subscription_center?add_user=Mnet\n\nLike Facebook and Twitter for more k-pop news\nhttps://facebook.com/MnetOfficial\nhttps://facebook.com/MCOUNTDOWN\nhttps://twitter.com/MnetKR",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h4oDqhQ91tc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h4oDqhQ91tc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h4oDqhQ91tc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/h4oDqhQ91tc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/h4oDqhQ91tc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Mnet K-POP",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-02T09:58:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "itn_Tpr8TgtI7O6sA7Z4HVsBWvQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QhT1ZvwgxQM"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-01T02:39:39Z",
+        "channelId": "UCzPhd4orXg5TWhM1u2RV-cw",
+        "title": "[헤어몬vlog] 편집자님 저 빼고 다 편집해주세요",
+        "description": "양날이랑 싸우고 이민규 먹방도보고 빈지노 형 함박웃음도 보고 한주호 함박웃음도 보고 프라다 옷도 보고 미친척도 했다! \n안녕하세요 헤롱이들! 저는 싱가폴 출장에 와있는데요!! 지금 서울은 추워서 난리라고 들었어요!!! 재난문자도 계속 온다던데… 다들 진짜 따뜻하게 입고 다니고, 갑자기 날씨추워지면 도로도 얼고 미끄럽고 그런다니까 다들 진짜 안전하고 건강하게 12월 맞이하자구요!!!! 그럼 영상 설명 시작할게요~\n\n[빈지노형 금손만들기 : 형 연습만이 살 길이야… 에어랩 잘좀 써봐]\n오늘은 헤롱이들이 많이 궁금해하기도하고, 보여주고 싶은 모습이기도 한 헤어 스타일리스트로서의 모습을 많이 보여주는 영상이에요. 제 채널에 자주 등장하는 빈지노형 헤어를 해주는 모습을 오늘 담아봤는데요, \n헤어 스타일링 팁도 잘 담아놨으니 우리 헤롱이들도 잘 보고 따라해봐요!!! 사실 모든 일이 그렇듯 익숙해지려면 시간이 필요하잖아요?! 헤어도 혼자 많이 연습해보고, 이렇게도 해보고 저렇게도 해보고 실수도하고, 자기한테 맞는 스타일링법을 찾는게 중요한것같아요!!! 그래서 저도 여전히 스타일링 테크닉 연습하고, 연구하고 하는거니까요 :) 우리 헤롱이들도 도전해봐아아아!!!\n\n[주호야, 쇼핑이 그렇게 좋아?]\n주호랑 여주 프리미엄 아울렛 다녀왔어요오오오!!!\n일상에 지친 마음은 쇼핑으로 풀라했죠? 다들 그런건 아니겠지만, 저는 쇼핑이 너무너무 좋아요! 사실 아울렛 구경 자주자주 다니는데, 매장 내부는 촬영이 안되어서, 그동안 촬영을 못했는데 생각해보니, 매장 밖은 찍어도 되는거 있죠??ㅋㅋㅋㅋㅋ 진짜 (아이쿠?) 암튼 주호랑 오늘도 쇼핑 너무너무 재밌게 했어요! 주호랑 저 만날 때마다 티격태격 기싸움하지만 저희는 항상 만나면 깔깔낄낄 하하호호 웃음만 넘쳐나는 재밌는 사이에요!!!\n\n[푸에르자 부르타, 넌 정말 사랑이고, 엔돌핀이야]\n여러분 SNS에서 푸에르자 부르타 공연에 대한 이야기 한번쯤 보셨나요?\n저는 친구들이랑 여러가지 형태의 문화생활하는게 정말 좋은데, 이번에 주호가 재밌는 공연 보러가자고 해서 “푸에르자 부르타”라는 행위예술 공연에 다녀왔습니다!!! 진짜로… 기대이상으로 너무너무 에너지 받고온 좋은 공연이였구요, 하루종일 돌아다녀서 너무 피곤했는데 진짜 이렇게 에너지를 돌려받고 오는 공연은 정말 오랜만이라서 헤롱이들한테 꼭 추천하고싶어요!!! 진짜 너무 좋아아아아!!!! 아우 씐나아아아!!!!\n\n[아이즈매거진 우정 화보 촬영 w.양날,영완,민규]\n여러분들 다들 아시겠지만 저는 제 친구들을 정말 사랑해요!!ㅠㅠ 진짜로ㅠㅠ 정말 감사하게도 아이즈 매거진에서 양날,영완,민규 그리고 저를 초청해주셔서 화보 촬영하고왔어요!!! 너무 이쁜 착장들이랑 연출로, 촬영 정말 행복하게 진행했고, 인터뷰도 정말 재밌었어요!!\n저희 넷의 이야기를 더 알고싶으신 헤롱이들은 아래 링크 들어가서 확인해보시면 될것같아요오오오~!!! 아이즈매거진 정말 감사합니다!!!\n\n화보 및 인터뷰 링크 : https://eyesmag.com/posts/149308/eyesmag-interview-hairmon-mingyu-yangnal-youngwan\n\n아무튼 우리 헤롱이들 저 싱가폴 출장 잘 마무리하고 서울로 돌아갈게요!!! 감기 조심하고! 독감 조심하고!!!! 이번 한 주도 행복하게 마무리하자~!!!! \n\n많관부~ 좋댓구~ 알라쀼우우우우웅❤️",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QhT1ZvwgxQM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QhT1ZvwgxQM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QhT1ZvwgxQM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/QhT1ZvwgxQM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/QhT1ZvwgxQM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "헤어몬 Hairmon",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-01T02:39:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "b0f7I_UsT7aaPA1-wAc6h4GDMVA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oUUhO5rO01k"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-04T17:41:16Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "추억의 걸그룹 노래들로 싹쓸이 해왔어 😘 | PLAYLIST",
+        "description": "처음으로 올린 걸그룹 플레이리스트가 워낙 반응이 좋아서\n이번에도 여돌 노래들을 모아봤어요!\n\n추억이 담긴 노래들을 좋아하시는거 같아서\n추억의 노래들로 가져왔습니다 😉\n\n\n\n영상이 마음에 드셨다면 [ 구독 💙 ]  [ 좋아요 👍 ]  [ 알림 🔔 ]\n\n- 수익 창출을 하지 않는 채널입니다.\n- 영상 속 광고는 유튜브 저작권 규정상 자동으로 광고가 붙어요!\n- 자세한 타임라인은 고정 댓글을 확인해주세요\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n#추억 #걸그룹 #여자아이돌 #노래모음 #플레이리스트",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oUUhO5rO01k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oUUhO5rO01k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oUUhO5rO01k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/oUUhO5rO01k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/oUUhO5rO01k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-04T17:41:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7CKwudYulGMiRLa4tEV_HGtzAFM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tS9Fp77VtAE"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-11T04:46:05Z",
+        "channelId": "UCfkXDY7vwkcJ8ddFGz8KusA",
+        "title": "[GOING SEVENTEEN 2020] EP.46 GOING #1",
+        "description": "[GOING SEVENTEEN 2020] EP.46 GOING #1\n\n자체 제작 아이돌 세븐틴, 이젠 화보도 자체 제작합니다🤗\n고잉 세븐틴 2020의 마지막 호스트 민규🐶\n\n'하면 해' 포토뀨와 함께하는 화보 'GOING' 촬영 도전기!\n멤버들도 깜짝 놀란 에디터 민규의 실력은⁉\n\nSelf-producing idol group, SEVENTEEN, is now self-producing their photobook🤗\n\n2020’s last GOING SEVENTEEN host MINGYU🐶\nFollow the photobook “GOING” shoot with “Just do it” photographer MINGYU!\n\nCheck out MINGYU’s editing skills that shocked even the members!!\n\n#세븐틴 #SEVENTEEN\n#GOING_SVT",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tS9Fp77VtAE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tS9Fp77VtAE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tS9Fp77VtAE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tS9Fp77VtAE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tS9Fp77VtAE/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "SEVENTEEN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-11T04:46:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iRrpCOVW-Zkc6sfwZCZ3B_vd7-8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JWbBU_cU9EY"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-05T19:19:45Z",
+        "channelId": "UCI7L7eMUWKNJnQY6hKwBugQ",
+        "title": "🦋태연의 고요한 밤, 구슬픈 마음을 달래주는 노래모음  | PLAYLIST🎵",
+        "description": "#태연 #플레이리스트\n\n모든 영상에서 발생하는 광고 수익은 유튜브 저작권 정책에 따라 저작권자에게 귀속됩니다.😄",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JWbBU_cU9EY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JWbBU_cU9EY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JWbBU_cU9EY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/JWbBU_cU9EY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/JWbBU_cU9EY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "루프 LOOP",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-05T19:19:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9AvUfvftiCxBHdG78oXD1dhGz0g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hDz5X-jHeNI"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-01T11:37:01Z",
+        "channelId": "UC47HAkQ6oZ-Hf5SVBGdvP6g",
+        "title": "이번 크리스마스는 난임센터에서 보낼것 같아요",
+        "description": "가비는 전혀 예상치 못한 난관을 맞이하게 되는데...\n\n🎄미리 크리스마스!:\n✨instagram: https://www.instagram.com/gabiekook/\n✨tiktok: https://www.tiktok.com/@gabiekook",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hDz5X-jHeNI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hDz5X-jHeNI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hDz5X-jHeNI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hDz5X-jHeNI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hDz5X-jHeNI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "국가비 Gabiekook",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-01T11:37:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DBly4jZxrEOjMWS72AFIxOpa63M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MswRmtzyWFA"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-01T09:33:02Z",
+        "channelId": "UCgeOlLcX6PReHdWImEnUVTg",
+        "title": "윤 대통령의 거짓 행보는 말바꾸기만으로 모두 진실로 둔갑하고 있다 [노정렬 남영희 김용민 변희재 전계완]",
+        "description": "#윤석열 #김건희 #강신업 #태블릿pc #민주당 #국민의힘\n\n■ 출연: 노정렬 단골/ 남영희 단골/ 김용민 단골/ 변희재 단골/ 전계완 단골\n\n♣️ 방송 안내\n정치 뒷풀이쇼 왁자지껄 | 매주 목 저녁 9시 ~ \n                     매주 일 저녁 5시~\n\n♣️ 스픽스 유튜브 구독하기\nhttps://www.youtube.com/@SPEAKS_TV\n\n♣️더 나은 세상을 만들어가는 대한민국 정치경제 미디어 '스픽스'\nhttps://www.speaks.kr/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MswRmtzyWFA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MswRmtzyWFA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MswRmtzyWFA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MswRmtzyWFA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/MswRmtzyWFA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "스픽스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-01T09:33:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pCJqlhzsAy1F1gmee-18Wvyiaxo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "R_zf9g4-xrg"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-03T05:50:52Z",
+        "channelId": "UCvRIeQeTZDHRcqVZRu0XBug",
+        "title": "[영웅호걸] 아이유의 인기 실감~~선거의 최강자~ |  HEROES EP.19",
+        "description": "인기투표 1위는 이미 정해져있다?\n\n영웅호걸 EP 19/2010.12.05\n출연: 아이유, 이진, 나르샤, 니콜, 정가인, 홍수아, 가희, 서인영, 신봉선, 유인나, 노사연, 지연, 이휘재",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/R_zf9g4-xrg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/R_zf9g4-xrg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/R_zf9g4-xrg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/R_zf9g4-xrg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/R_zf9g4-xrg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "빽능 - SBS 옛날 예능",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-03T05:50:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LEB_P9GeefpnGj0lEU3tPBB6f1E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nw1qH6vR-8o"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-28T06:05:05Z",
+        "channelId": "UC3SyT4_WLHzN7JmHQwKQZww",
+        "title": "[아이유의 팔레트🎨] j-hope In The Palette (With j-hope) Ep.14",
+        "description": "[IU's Palette] j-hope In The Palette (With j-hope) Ep.14\n[아이유의 팔레트] j-hope In The Palette (With j-hope) Ep.14\n\n#아이유 #팔레트 #jhope",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nw1qH6vR-8o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nw1qH6vR-8o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nw1qH6vR-8o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nw1qH6vR-8o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nw1qH6vR-8o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이지금 [IU Official]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-28T06:05:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FczJFz0wzZ4AaYpq3l5XxT3AKjM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VNYEHXsehTg"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-29T07:32:44Z",
+        "channelId": "UCtCiO5t2voB14CmZKTkIzPQ",
+        "title": "카라(KARA)의 킬링보이스를 라이브로! - Rock U, Pretty Girl, Honey, 미스터, 루팡, 점핑, Step, 맘마미아, WHEN I MOVE | 딩고뮤직",
+        "description": "심장이 반응하는 선곡 리스트...계속 생각날걸요?!❤️‍🔥\n \n[선곡리스트]\n00:00 오프닝\n00:50 Rock U\n02:55 Pretty Girl\n04:17 Honey\n05:27 미스터\n07:33 루팡 (Lupin)\n09:30 점핑 (Jumping)\n11:40 Step\n13:08 둘 중에 하나\n14:05 맘마미아 \n16:22 WHEN I MOVE\n \n▶딩고뮤직 (Dingo Music) : http://bit.ly/Dingo__Music\n▶딩고프리스타일 (Dingo Freestyle) : http://bit.ly/Dingo__Freestyle\n▶일소라 (일반인들의 소름돋는 라이브) : http://bit.ly/ilsora\n \ncontact : musicbiz@makeus.com\n \n#카라 #KARA #킬링보이스\n\n#박규리 #니콜 #한승연 #강지영 #허영지\n#Killiingvoice #딩고뮤직 #DingoMusic",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VNYEHXsehTg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VNYEHXsehTg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VNYEHXsehTg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/VNYEHXsehTg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/VNYEHXsehTg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "딩고 뮤직 / dingo music",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-29T07:32:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HVvCxiN1Gh-54wrsgFJp3vQxfzs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rquWzHAO0S0"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-25T06:24:36Z",
+        "channelId": "UC3SyT4_WLHzN7JmHQwKQZww",
+        "title": "[IU TV] 어느때 보다 뜨거웠던 오렌지 태양 아래🍊 ㅣ 'THE GOLDEN HOUR' Concert Behind Ep.1",
+        "description": "[IU TV] The hottest day under The GOLDEN HOUR\n[IU TV] 어느때 보다 뜨거웠던 오렌지 태양 아래\n\n#아이유 #이지금 #dlwlrma",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rquWzHAO0S0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rquWzHAO0S0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rquWzHAO0S0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rquWzHAO0S0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rquWzHAO0S0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이지금 [IU Official]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-25T06:24:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ottl-hqYMOjwbpESzjjOOaTHwz0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "40bRn--FL3Y"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-22T08:54:49Z",
+        "channelId": "UC3SyT4_WLHzN7JmHQwKQZww",
+        "title": "[아이유의 팔레트🎨] 팔레트 상담소에 크분이 왔습니다 (With 크러쉬) Ep.15",
+        "description": "[IU's Palette] He is here in Palette through Rush Hour (With Crush) Ep.15\n[아이유의 팔레트] 팔레트 상담소에 크분이 왔습니다 (With 크러쉬) Ep.15\n\n#아이유 #팔레트 #크러쉬",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/40bRn--FL3Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/40bRn--FL3Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/40bRn--FL3Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/40bRn--FL3Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/40bRn--FL3Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "이지금 [IU Official]",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-22T08:54:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wWB-mAA_RyiycYdLzbaMqLwSziM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EcZrc1BSEyo"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-30T14:44:40Z",
+        "channelId": "UC0z8bddfRBRBmEC-AjI6UXw",
+        "title": "새로운 뉴페이스의 등장! 초면이지만 우리가 파트너라구?!😰 [네가 죽어] #5",
+        "description": "#네가죽어 #키미가시네 #キミガシネ\n🖤풀버전 보러 ㄱrブl 📅 221105 https://youtu.be/9WhKXDTEUS8 221126 https://youtu.be/AFikKl7Q7mQ\n🤍スΙ컨 생방송 ㉰㉦ㅣ 보㉠ㅣhttps://bit.ly/2kyCIWu\n🖤팬 ㅋΓ페로 놀ㄹ┥ 와...。http://cafe.daum.net/zkern\n🤍멤버십 フト입ㅎΗ丕 https://www.youtube.com/channel/UC0z8bddfRBRBmEC-AjI6UXw/join\n🖤しΗ 사생활Ｏ| 궁금㉭ㅐ...? https://www.instagram.com/zkern_official/\n\n🤍편집: 으닝",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EcZrc1BSEyo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EcZrc1BSEyo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EcZrc1BSEyo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EcZrc1BSEyo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EcZrc1BSEyo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "지컨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-30T14:44:40Z"
+      }
+    }
+  ]
+}

@@ -28,7 +28,7 @@ const KeywordSearch = ({ searchKeyword, handleInputFocus }) => {
         onFocus={handleInputFocus}
         onChange={(e) => setText(e.target.value)}
       />
-      <button className={styles.button}>
+      <button title='검색버튼' className={styles.button}>
         <i className='fa-solid fa-magnifying-glass'></i>
       </button>
     </form>
