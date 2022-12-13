@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoList renders correctly 1`] = `
+<DocumentFragment>
+  <ul
+    class="videoList grid"
+  >
+    <li
+      class="videoItem grid"
+      data-testid="video-list"
+    >
+      <div
+        class="thumbnail"
+      >
+        <img
+          alt="title4"
+          class="thumbnailImg"
+          src="http://image4/"
+        />
+      </div>
+      <div
+        class="info"
+      >
+        <p
+          class="title"
+        >
+          title4
+        </p>
+        <p
+          class="channelTitle"
+        >
+          channelTitle4
+        </p>
+        <p
+          class="publishedAt"
+        >
+          just now
+        </p>
+      </div>
+    </li>
+    <li
+      class="videoItem grid"
+      data-testid="video-list"
+    >
+      <div
+        class="thumbnail"
+      >
+        <img
+          alt="title2"
+          class="thumbnailImg"
+          src="http://image2/"
+        />
+      </div>
+      <div
+        class="info"
+      >
+        <p
+          class="title"
+        >
+          title2
+        </p>
+        <p
+          class="channelTitle"
+        >
+          channelTitle2
+        </p>
+        <p
+          class="publishedAt"
+        >
+          just now
+        </p>
+      </div>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

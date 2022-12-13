@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoItem renders grid type correctly 1`] = `
+<li
+  className="videoItem grid"
+  data-testid="video-list"
+  onClick={[Function]}
+>
+  <div
+    className="thumbnail"
+  >
+    <img
+      alt="title"
+      className="thumbnailImg"
+      src="http://image/"
+    />
+  </div>
+  <div
+    className="info"
+  >
+    <p
+      className="title"
+    >
+      title
+    </p>
+    <p
+      className="channelTitle"
+    >
+      channelTitle
+    </p>
+    <p
+      className="publishedAt"
+    >
+      just now
+    </p>
+  </div>
+</li>
+`;
+
+exports[`VideoItem renders list type correctly 1`] = `
+<li
+  className="videoItem list"
+  data-testid="video-list"
+  onClick={[Function]}
+>
+  <div
+    className="thumbnail"
+  >
+    <img
+      alt="title"
+      className="thumbnailImg"
+      src="http://image/"
+    />
+  </div>
+  <div
+    className="info"
+  >
+    <p
+      className="title"
+    >
+      title
+    </p>
+    <p
+      className="channelTitle"
+    >
+      channelTitle
+    </p>
+    <p
+      className="publishedAt"
+    >
+      just now
+    </p>
+  </div>
+</li>
+`;

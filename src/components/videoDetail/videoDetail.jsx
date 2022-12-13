@@ -29,7 +29,7 @@ const VideoDetail = () => {
       <hr />
       <Channel channelId={channelId} channelTitle={channelTitle} />
       <div className={styles.descriptionArea}>
-        <div className={`${styles.description} ${isMore ? '' : styles.clamp}`} dangerouslySetInnerHTML={{ __html: setDescription(description) }}></div>
+        <div className={`${styles.description} ${isMore ? '' : styles.clamp}`} dangerouslySetInnerHTML={{ __html: formatDescription(description) }}></div>
         <button className={`${isMore ? styles.shortBtn : styles.moreBtn}`} onClick={() => setIsMore(!isMore)}>
           {isMore ? '간략히' : '더보기'}
         </button>
@@ -41,13 +41,12 @@ const VideoDetail = () => {
 export default VideoDetail;
 
 /** 상세 페이지 - 비디오 설명에 있는 링크와 태그 추출 */
-function setDescription(description) {
+function formatDescription(description = '') {
   const urlPattern = new RegExp(/(?:https?:\/\/)[a-zA-Z0-9ㄱ-ㅎ가-힣./-_?=&@%]+/, 'g');
   const tagPattern = new RegExp(/#[a-zA-Z0-9ㄱ-ㅎ가-힣]+/, 'g');
-  let str = description;
 
-  str = str.replace(urlPattern, (link) => `<a href='${link}' target='_blank'>${link}</a>`);
-  str = str.replace(tagPattern, (tag) => `<span style='color:blue'>${tag}</span>`);
+  description = description.replace(urlPattern, (link) => `<a href='${link}' target='_blank'>${link}</a>`);
+  description = description.replace(tagPattern, (tag) => `<span style='color:blue'>${tag}</span>`);
 
-  return str.replaceAll('\n', '<br/>');
+  return description.replaceAll('\n', '<br/>');
 }
